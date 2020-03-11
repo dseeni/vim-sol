@@ -84,7 +84,7 @@ hi Normal       ctermfg=232  ctermbg=255  cterm=NONE
 " The Languages stuff
 hi Title        ctermfg=NONE ctermbg=NONE cterm=NONE
 " ---------------------------------------------------------------------
-hi Comment      ctermfg=250  ctermbg=NONE cterm=NONE
+hi Comment      ctermfg=130  ctermbg=NONE cterm=NONE
 " ---------------------------------------------------------------------
 hi Constant     ctermfg=23   ctermbg=NONE cterm=NONE
 hi String       ctermfg=27   ctermbg=NONE cterm=NONE
