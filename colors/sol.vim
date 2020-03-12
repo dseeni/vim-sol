@@ -205,7 +205,8 @@ hi Underlined        guifg=#6a5acd    guibg=NONE    gui=NONE
 hi Error             guifg=#ff0000    guibg=#ffcdcd    gui=NONE
 " hi Error             guifg=#ff0000    guibg=#ffe7e7    gui=NONE
 " ---------------------------------------------------------------------
-hi TODO              guifg=#dc143c    guibg=#ebcc1a    gui=NONE
+" hi TODO              guifg=#dc143c    guibg=#ebcc1a    gui=NONE
+hi TODO              guifg=#dc143c    guibg=#FFEF00    gui=NONE
 
 " ---------------------------------------------------------------------
 " }}}
@@ -217,8 +218,10 @@ hi NonText       guifg=#b0b0b0    guibg=NONE    gui=NONE
 hi Visual        guifg=#0b0e0f    guibg=#aaaaaa gui=NONE
 " hi ErrorMsg      guifg=#ff0000    guibg=#ffe7e7    gui=NONE
 hi ErrorMsg      guifg=#ff0000    guibg=#ffff80    gui=NONE
-hi IncSearch     guifg=#0b0e0f    guibg=#ffcc00    gui=NONE
-hi Search        guifg=#0b0e0f    guibg=#ffcc00    gui=NONE
+" hi IncSearch     guifg=#0b0e0f    guibg=#e2e8ff    gui=NONE
+" hi IncSearch     guifg=NONE    guibg=#ece2ff    gui=NONE
+hi IncSearch     guifg=NONE    guibg=#e2e2ff    gui=NONE
+hi Search        guifg=NONE    guibg=#e2e2ff    gui=NONE
 hi MoreMsg       guifg=#696969    guibg=NONE    gui=NONE
 hi ModeMsg       guifg=#505050    guibg=NONE    gui=NONE
 hi LineNr        guifg=#b0b0b0    guibg=NONE    gui=NONE
