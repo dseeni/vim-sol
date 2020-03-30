@@ -207,6 +207,7 @@ hi Error             guifg=#ff0000    guibg=#ffcdcd    gui=NONE
 " ---------------------------------------------------------------------
 " hi TODO              guifg=#dc143c    guibg=#ebcc1a    gui=NONE
 hi TODO              guifg=#dc143c    guibg=#FFEF00    gui=NONE
+" hi DONE              guifg=#005aff    guibg=#FFEF00    gui=NONE
 
 " ---------------------------------------------------------------------
 " }}}
