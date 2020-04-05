@@ -7,15 +7,15 @@
 " Version: 0.0.3
 "
 "
-" TODO: {{{
+" TODO:
 " ---------------------------------------------------------------------
 " -- Clean up !
 " -- create a terminal version
 " -- add more lang specifics
 " -- (Will think of some more sutff !)
-" }}}
 "
-" Usage and Requirements "{{{
+"
+" Usage and Requirements
 " ---------------------------------------------------------------------
 " REQUIREMENTS:
 " ---------------------------------------------------------------------
@@ -64,9 +64,9 @@
 "
 " syntax enable
 " colorscheme sol
-" }}}
 "
-" Colorscheme initialization "{{{
+"
+" Colorscheme initialization
 " ---------------------------------------------------------------------
 set background=light
 highlight clear
@@ -74,14 +74,14 @@ if exists("syntax_on")
     syntax reset
 endif
 let g:colors_name = "sol"
-" }}}
 "
-" Gvim Highlighting: (see :help highlight-groups)" {{{
+"
+" Gvim Highlighting: (see :help highlight-groups)"
 " ---------------------------------------------------------------------
 " First, the Normal
 " hi Normal          guifg=#0b0e0f guibg=#ededed gui=NONE
 " hi Normal          guifg=#0b0e0f guibg=#ecf0f1 gui=NONE " final one
-hi Normal            guifg=#0b0e0f guibg=#ffffff gui=NONE
+hi Normal            guifg=#0b0e0f guibg=None gui=NONE
 " hi Normal          guifg=#0b0e0f guibg=#dde4e6 gui=NONE
 " ---------------------------------------------------------------------
 " The Languages stuff
@@ -138,6 +138,7 @@ hi Statement         guifg=#007878    guibg=NONE    gui=NONE
 hi Conditional       guifg=#994128    guibg=NONE    gui=NONE
 " hi Conditional       guifg=#ba28bf    guibg=NONE    gui=NONE
 " hi Repeat            guifg=NONE    guibg=NONE    gui=NONE
+hi Repeat              guifg=NONE    guibg=#ff9c00    gui=Bold
 " hi Label             guifg=NONE    guibg=NONE    gui=NONE
 " hi Operator          guifg=#ff8036    guibg=NONE    gui=NONE
 " hi Operator          guifg=#ff3001    guibg=NONE    gui=NONE
@@ -210,9 +211,9 @@ hi TODO              guifg=#dc143c    guibg=#FFEF00    gui=NONE
 " hi DONE              guifg=#005aff    guibg=#FFEF00    gui=NONE
 
 " ---------------------------------------------------------------------
-" }}}
 "
-" Extended Highlighting {{{
+"
+" Extended Highlighting
 " ---------------------------------------------------------------------
 
 hi NonText       guifg=#b0b0b0    guibg=NONE    gui=NONE
@@ -272,9 +273,9 @@ hi WildMenu      guifg=#eeeeee    guibg=#b7410e    gui=NONE
 hi SignColumn    guifg=NONE    guibg=#eeeeee    gui=NONE
 "
 " ---------------------------------------------------------------------
-" }}}
 "
-" Language Specifics: {{{
+"
+" Language Specifics:
 " ---------------------------------------------------------------------
 " These are language specifics. These are set explicitly to override the group
 " highlighting provided by vim (Simply to make the language that you're working
@@ -306,9 +307,9 @@ hi pythonClass               guifg=#d12c52 guibg=NONE gui=NONE
 """ hi rubyArrayDelimiter     guifg=#00bcbc guibg=NONE gui=NONE
 "
 " ---------------------------------------------------------------------
-" }}}
 "
-" Extras: {{{
+"
+" Extras:
 " ---------------------------------------------------------------------
 " These are extra parts for highlighting certain external plugins
 " ---------------------------------------------------------------------
@@ -347,7 +348,7 @@ hi CtrlPMode2      guifg=#e95600 guibg=NONE    gui=NONE
 "
 " ---------------------------------------------------------------------
 "
-" }}}
+"
 "
 "
 " vim:foldmethod=marker:foldlevel=0:textwidth=79
