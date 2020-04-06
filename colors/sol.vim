@@ -138,7 +138,7 @@ hi Statement         guifg=#007878    guibg=NONE    gui=NONE
 hi Conditional       guifg=#994128    guibg=NONE    gui=NONE
 " hi Conditional       guifg=#ba28bf    guibg=NONE    gui=NONE
 " hi Repeat            guifg=NONE    guibg=NONE    gui=NONE
-hi Repeat              guifg=NONE    guibg=#ff9c00    gui=Bold
+hi Repeat              guifg=#0b0e0f    guibg=#ff9c00    gui=Bold
 " hi Label             guifg=NONE    guibg=NONE    gui=NONE
 " hi Operator          guifg=#ff8036    guibg=NONE    gui=NONE
 " hi Operator          guifg=#ff3001    guibg=NONE    gui=NONE
