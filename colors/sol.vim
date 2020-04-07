@@ -256,6 +256,7 @@ hi PmenuSel      guifg=#eeeeee    guibg=#0d3c6e    gui=NONE
 hi PmenuSbar     guifg=#bbbbbb    guibg=#bbbbbb    gui=NONE
 hi PmenuThumb    guifg=#bbbbbb    guibg=#bbbbbb    gui=NONE
 hi MatchParen    guifg=#ffffff    guibg=#ff4400    gui=NONE
+" hi MatchParen guibg=#bbbbbb guifg=#000000()
 " hi CursorLine    guifg=NONE    guibg=#c0cdd1 gui=NONE
 " hi CursorLine    guifg=NONE    guibg=#c0cdd1 gui=NONE
 " hi CursorLine    guifg=NONE    guibg=#dde4e6 gui=NONE
@@ -316,40 +317,48 @@ hi pythonClass               guifg=#d12c52 guibg=NONE gui=NONE
 "
 " Startify (https://github.com/mhinz/vim-startify)
 "
-hi StartifyBracket  guifg=#b06bfc guibg=NONE gui=NONE
-hi StartifyNumber   guifg=#bada55 guibg=NONE gui=NONE
-hi StartifySpecial  guifg=#2e8857 guibg=NONE gui=NONE
-hi StartifyPath     guifg=#545454 guibg=NONE gui=NONE
-hi StartifySlash    guifg=#474747 guibg=NONE gui=NONE
-" hi StartifyFile     guifg=#00ffa5 guibg=NONE gui=NONE
-" hi StartifyFile     guifg=#2aa198 guibg=NONE gui=NONE
-" hi StartifyFile     guifg=#f0e68c guibg=NONE gui=NONE
-hi StartifyFile     guifg=#fa8072 guibg=NONE gui=NONE
-hi StartifyHeader   guifg=#f0e68c guibg=NONE gui=NONE
-hi StartifyFooter   guifg=#a0522d guibg=NONE gui=NONE
+"hi StartifyBracket  guifg=#b06bfc guibg=NONE gui=NONE
+"hi StartifyNumber   guifg=#bada55 guibg=NONE gui=NONE
+"hi StartifySpecial  guifg=#2e8857 guibg=NONE gui=NONE
+"hi StartifyPath     guifg=#545454 guibg=NONE gui=NONE
+"hi StartifySlash    guifg=#474747 guibg=NONE gui=NONE
+"" hi StartifyFile     guifg=#00ffa5 guibg=NONE gui=NONE
+"" hi StartifyFile     guifg=#2aa198 guibg=NONE gui=NONE
+"" hi StartifyFile     guifg=#f0e68c guibg=NONE gui=NONE
+"hi StartifyFile     guifg=#fa8072 guibg=NONE gui=NONE
+"hi StartifyHeader   guifg=#f0e68c guibg=NONE gui=NONE
+"hi StartifyFooter   guifg=#a0522d guibg=NONE gui=NONE
+""
+"" ---------------------------------------------------------------------
+""
+"" CtrlP (https://github.com/kien/ctrlp.vim)
+""
+"" hi CtrlPMatch     guifg=#cf4910 guibg=NONE    gui=NONE
+"" hi CtrlPMatch     guifg=#839e2e guibg=#cee094    gui=NONE
+"" hi CtrlPMatch     guifg=#728927 guibg=NONE    gui=NONE
+"hi CtrlPMatch      guifg=#008000 guibg=#ddeedd    gui=NONE
+"" hi CtrlPMatch     guifg=#008000 guibg=#ddffdd    gui=NONE
+"" hi CtrlPMatch     guifg=#008000 guibg=#eeffee    gui=NONE
+"hi CtrlPLinePre    guifg=#aaaaaa guibg=NONE    gui=NONE
+"hi CtrlPPrtBase    guifg=#aaaaaa guibg=NONE    gui=NONE
+"hi CtrlPPrtCursor  guifg=#0b0e0f guibg=#cccccc gui=NONE
+"hi CtrlPTabExtra   guifg=#ff4162 guibg=NONE    gui=NONE
+"hi CtrlPBufName    guifg=#ff0000 guibg=#ffffff    gui=NONE
+"hi CtrlPMode1      guifg=#007fff guibg=NONE    gui=NONE
+"hi CtrlPMode2      guifg=#e95600 guibg=NONE    gui=NONE
+""
+"" ---------------------------------------------------------------------
+""
+""
+""
+""
+"" vim:foldmethod=marker:foldlevel=0:textwidth=79
 "
-" ---------------------------------------------------------------------
-"
-" CtrlP (https://github.com/kien/ctrlp.vim)
-"
-" hi CtrlPMatch     guifg=#cf4910 guibg=NONE    gui=NONE
-" hi CtrlPMatch     guifg=#839e2e guibg=#cee094    gui=NONE
-" hi CtrlPMatch     guifg=#728927 guibg=NONE    gui=NONE
-hi CtrlPMatch      guifg=#008000 guibg=#ddeedd    gui=NONE
-" hi CtrlPMatch     guifg=#008000 guibg=#ddffdd    gui=NONE
-" hi CtrlPMatch     guifg=#008000 guibg=#eeffee    gui=NONE
-hi CtrlPLinePre    guifg=#aaaaaa guibg=NONE    gui=NONE
-hi CtrlPPrtBase    guifg=#aaaaaa guibg=NONE    gui=NONE
-hi CtrlPPrtCursor  guifg=#0b0e0f guibg=#cccccc gui=NONE
-hi CtrlPTabExtra   guifg=#ff4162 guibg=NONE    gui=NONE
-hi CtrlPBufName    guifg=#ff0000 guibg=#ffffff    gui=NONE
-hi CtrlPMode1      guifg=#007fff guibg=NONE    gui=NONE
-hi CtrlPMode2      guifg=#e95600 guibg=NONE    gui=NONE
-"
-" ---------------------------------------------------------------------
 "
 "
 "
 "
-" vim:foldmethod=marker:foldlevel=0:textwidth=79
+"
+"
+"
 "
