@@ -88,7 +88,7 @@ hi Normal            guifg=#0b0e0f guibg=None gui=NONE
 hi Title             guifg=NONE    guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi Comment           guifg=#bdbdbd guibg=NONE    gui=NONE
-hi Comment           guifg=#828282 guibg=NONE    gui=NONE
+hi Comment           guifg=#828282 guibg=NONE    gui=Italic
 " ---------------------------------------------------------------------
 " hi Constant          guifg=#945db7 guibg=NONE    gui=NONE
 " hi Constant          guifg=#00bcbc guibg=NONE    gui=NONE
@@ -103,31 +103,31 @@ hi Comment           guifg=#828282 guibg=NONE    gui=NONE
 " hi Constant          guifg=#09643f guibg=NONE    gui=NONE
 " hi Constant          guifg=#e82ba1 guibg=NONE    gui=NONE
 " hi Constant          guifg=#4aa874 guibg=NONE    gui=NONE
-hi Constant          guifg=#09543f guibg=NONE    gui=NONE
+hi Constant          guifg=#09543f guibg=NONE    gui=bold
 " hi Constant          guifg=#c55d30 guibg=NONE    gui=NONE
 " hi Constant          guifg=#bf760a guibg=NONE    gui=NONE
 " hi String            guifg=#60bdf4    guibg=NONE    gui=NONE
-hi String            guifg=#005aff    guibg=NONE    gui=NONE
+hi String            guifg=#005aff    guibg=NONE    gui=bold
 " hi Character         guifg=#ff005a    guibg=NONE    gui=NONE
-hi Character         guifg=#543978    guibg=NONE    gui=NONE
-" hi Number            guifg=NONE    guibg=NONE    gui=NONE
+hi Character         guifg=#543978    guibg=NONE    gui=bold
+hi Number            guifg=NONE    guibg=NONE    gui=bold
 " hi Boolean           guifg=#cc6600    guibg=NONE    gui=NONE
 " hi Boolean           guifg=#ff6b00    guibg=NONE    gui=NONE
-hi Boolean           guifg=#eb6300    guibg=NONE    gui=NONE
+hi Boolean           guifg=#eb6300    guibg=NONE    gui=bold
 " hi Float             guifg=NONE    guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi Identifier        guifg=#008080    guibg=NONE    gui=NONE
 " hi Identifier        guifg=#ff8036    guibg=NONE    gui=NONE
 " hi Identifier        guifg=#e95600    guibg=NONE    gui=NONE
 " hi Identifier        guifg=#db5855    guibg=NONE    gui=NONE
-hi Identifier        guifg=#d12c52    guibg=NONE    gui=NONE
+hi Identifier        guifg=#d12c52    guibg=NONE    gui=bold
 " hi Function          guifg=#ff0000    guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi Statement         guifg=#4aa874    guibg=NONE    gui=NONE
 " hi Statement         guifg=#c71585    guibg=NONE    gui=NONE
 " hi Statement         guifg=#800080    guibg=NONE    gui=NONE
 " hi Statement         guifg=#483d8b    guibg=NONE    gui=NONE
-hi Statement         guifg=#007878    guibg=NONE    gui=NONE
+hi Statement         guifg=#007878    guibg=NONE    gui=bold
 " hi Statement         guifg=#543978    guibg=NONE    gui=NONE
 " hi Statement         guifg=#0d0d8c    guibg=NONE    gui=NONE
 " hi Conditional       guifg=#e69500    guibg=NONE    gui=NONE
@@ -135,10 +135,10 @@ hi Statement         guifg=#007878    guibg=NONE    gui=NONE
 " hi Conditional       guifg=#c55d30    guibg=NONE    gui=NONE
 " hi Conditional       guifg=#95b62e    guibg=NONE    gui=NONE
 " hi Conditional       guifg=#eb641a    guibg=NONE    gui=NONE
-hi Conditional       guifg=#994128    guibg=NONE    gui=NONE
+hi Conditional       guifg=#994128    guibg=NONE    gui=bold
 " hi Conditional       guifg=#ba28bf    guibg=NONE    gui=NONE
-" hi Repeat            guifg=NONE    guibg=NONE    gui=NONE
-hi Repeat              guifg=#0b0e0f    guibg=#ff9c00    gui=Bold
+" hi Repeat            guifg=NONE    guibg=NONE    gui=NONE use one below
+" hi Repeat              guifg=#0b0e0f    guibg=#ff9c00    gui=Bold
 " hi Label             guifg=NONE    guibg=NONE    gui=NONE
 " hi Operator          guifg=#ff8036    guibg=NONE    gui=NONE
 " hi Operator          guifg=#ff3001    guibg=NONE    gui=NONE
@@ -146,11 +146,11 @@ hi Repeat              guifg=#0b0e0f    guibg=#ff9c00    gui=Bold
 " hi Operator          guifg=#eb641a    guibg=NONE    gui=NONE
 " hi Operator          guifg=#ba28bf    guibg=NONE    gui=NONE
 " hi Operator          guifg=#ce2dd3    guibg=NONE    gui=NONE
-hi Operator          guifg=#ff8036    guibg=NONE    gui=NONE
+hi Operator          guifg=#ff8036    guibg=NONE    gui=bold
 " hi Operator          guifg=#ff9050    guibg=NONE    gui=NONE
 " hi Keyword           guifg=NONE    guibg=NONE    gui=NONE
 " hi Exception         guifg=#eb641a    guibg=NONE    gui=NONE
-hi Exception         guifg=#994128    guibg=NONE    gui=NONE
+hi Exception         guifg=#994128    guibg=NONE    gui=bold
 " ---------------------------------------------------------------------
 " hi PreProc           guifg=#543978    guibg=NONE    gui=NONE
 " hi PreProc           guifg=#e69500    guibg=NONE    gui=NONE
@@ -164,10 +164,10 @@ hi Exception         guifg=#994128    guibg=NONE    gui=NONE
 " hi PreProc           guifg=#ff748c    guibg=NONE    gui=NONE
 hi PreProc           guifg=#ff4162    guibg=NONE    gui=NONE
 " hi PreProc           guifg=NONE    guibg=NONE    gui=NONE
-" hi Include           guifg=NONE    guibg=NONE    gui=NONE
-" hi Define            guifg=NONE    guibg=NONE    gui=NONE
+hi Include           guifg=NONE    guibg=NONE    gui=bold
+hi Define            guifg=NONE    guibg=NONE    gui=bold
 " hi Macro             guifg=NONE    guibg=NONE    gui=NONE
-" hi PreCondit         guifg=NONE    guibg=NONE    gui=NONE
+hi PreCondit         guifg=NONE    guibg=NONE    gui=bold
 " ---------------------------------------------------------------------
 " hi Type              guifg=#b22222    guibg=NONE    gui=NONE
 " hi Type              guifg=#8b4513    guibg=NONE    gui=NONE
@@ -177,13 +177,14 @@ hi PreProc           guifg=#ff4162    guibg=NONE    gui=NONE
 " hi Type              guifg=#bf760a    guibg=NONE    gui=NONE
 " hi Type              guifg=#5d7839    guibg=NONE    gui=NONE
 " hi Type              guifg=#354420    guibg=NONE    gui=NONE
-hi Type              guifg=#839a00    guibg=NONE    gui=NONE
+hi Type              guifg=#839a00    guibg=NONE    gui=bold
 " hi Type              guifg=#425529    guibg=NONE    gui=NONE
 " hi Type              guifg=#ff0e38    guibg=NONE    gui=NONE
 " hi StorageClass      guifg=#d06a3e    guibg=NONE    gui=NONE
 " hi StorageClass      guifg=#c55d30    guibg=NONE    gui=NONE
-" hi Structure         guifg=NONE    guibg=NONE    gui=NONE
-" hi Typedef           guifg=NONE    guibg=NONE    gui=NONE
+hi StorageClass      guifg=NONE    guibg=NONE    gui=bold
+hi Structure         guifg=NONE    guibg=NONE    gui=bold
+hi Typedef           guifg=NONE    guibg=NONE    gui=bold
 " ---------------------------------------------------------------------
 " hi Special           guifg=#ff0e38    guibg=NONE    gui=NONE
 " hi Special           guifg=#5d7839    guibg=NONE    gui=NONE
@@ -191,9 +192,9 @@ hi Type              guifg=#839a00    guibg=NONE    gui=NONE
 " hi Special              guifg=#543978    guibg=NONE    gui=NONE
 " hi Special              guifg=#b3003f    guibg=NONE    gui=NONE
 " hi Special              guifg=#e60051    guibg=NONE    gui=NONE
-hi Special              guifg=#8a41ea    guibg=NONE    gui=NONE
+hi Special              guifg=#8a41ea    guibg=NONE    gui=bold
 " hi Special              guifg=#ff005a    guibg=NONE    gui=NONE
-" hi SpecialChar       guifg=NONE    guibg=NONE    gui=NONE
+hi SpecialChar       guifg=NONE    guibg=NONE    gui=bold
 " hi Tag               guifg=NONE    guibg=NONE    gui=NONE
 " hi Delimiter         guifg=NONE    guibg=NONE    gui=NONE
 " hi SpecialComment    guifg=NONE    guibg=NONE    gui=NONE
@@ -206,8 +207,8 @@ hi Underlined        guifg=#6a5acd    guibg=NONE    gui=NONE
 hi Error             guifg=#ff0000    guibg=#ffcdcd    gui=NONE
 " hi Error             guifg=#ff0000    guibg=#ffe7e7    gui=NONE
 " ---------------------------------------------------------------------
-" hi TODO              guifg=#dc143c    guibg=#ebcc1a    gui=NONE
-hi TODO              guifg=#dc143c    guibg=#FFEF00    gui=NONE
+" hi TODO              guifg=#dc143c    guibg=#ebcc1a    gui=bold
+hi TODO              guifg=#dc143c    guibg=#FFEF00    gui=BOLD
 " hi DONE              guifg=#005aff    guibg=#FFEF00    gui=NONE
 
 " ---------------------------------------------------------------------
@@ -256,7 +257,8 @@ hi PmenuSel      guifg=#eeeeee    guibg=#0d3c6e    gui=NONE
 hi PmenuSbar     guifg=#bbbbbb    guibg=#bbbbbb    gui=NONE
 hi PmenuThumb    guifg=#bbbbbb    guibg=#bbbbbb    gui=NONE
 hi MatchParen    guifg=#ffffff    guibg=#ff4400    gui=NONE
-" hi MatchParen guibg=#bbbbbb guifg=#000000()
+hi DSMatch    guifg=#ffffff    guibg=#d70a53    gui=BOLD
+" hi MatchParen guibg=#bbbbbb guifg=#000000
 " hi CursorLine    guifg=NONE    guibg=#c0cdd1 gui=NONE
 " hi CursorLine    guifg=NONE    guibg=#c0cdd1 gui=NONE
 " hi CursorLine    guifg=NONE    guibg=#dde4e6 gui=NONE
@@ -272,7 +274,17 @@ hi ColorColumn   guifg=NONE    guibg=#ffd7c7    gui=NONE
 " hi WildMenu      guifg=#0b0e0f    guibg=#0faf8d    gui=NONE
 hi WildMenu      guifg=#eeeeee    guibg=#b7410e    gui=NONE
 hi SignColumn    guifg=NONE    guibg=#eeeeee    gui=NONE
-"
+
+hi! CocErrorSign gui=Italic guifg=#FF0000 guibg=#e6e6e6
+hi! CocWarningSign gui=Italic guifg=#FF0000 guibg=#e6e6e6
+hi! CocHintSign gui=Italic guifg=#FF0000 guibg=#e6e6e6
+hi! CocInfoSign gui=Italic guifg=#0066ff guibg=#e6e6e6
+
+hi! SignifyLineAdd guifg=#ffffff guibg=#006600 gui=NONE
+hi! SignifyLineChange guifg=#ffffff guibg=#007878 gui=NONE
+hi! SignifyLineDelete guifg=#ff0101 guibg=#9a0000 gui=NONE
+hi! SignifyLineDeleteFirstLine guifg=#000000 guibg=#ffb733 gui=NONE
+
 " ---------------------------------------------------------------------
 "
 "
@@ -348,17 +360,3 @@ hi pythonClass               guifg=#d12c52 guibg=NONE gui=NONE
 "hi CtrlPMode2      guifg=#e95600 guibg=NONE    gui=NONE
 ""
 "" ---------------------------------------------------------------------
-""
-""
-""
-""
-"" vim:foldmethod=marker:foldlevel=0:textwidth=79
-"
-"
-"
-"
-"
-"
-"
-"
-"
