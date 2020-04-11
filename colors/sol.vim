@@ -282,7 +282,7 @@ hi! CocInfoSign gui=Italic guifg=#0066ff guibg=#e6e6e6
 
 hi! SignifyLineAdd guifg=#ffffff guibg=#006600 gui=NONE
 hi! SignifyLineChange guifg=#ffffff guibg=#007878 gui=NONE
-hi! SignifyLineDelete guifg=#ff0101 guibg=#9a0000 gui=NONE
+hi! SignifyLineDelete guifg=#000000 guibg=#ff0101 gui=NONE
 hi! SignifyLineDeleteFirstLine guifg=#000000 guibg=#ffb733 gui=NONE
 
 " ---------------------------------------------------------------------
