@@ -222,9 +222,13 @@ hi Visual        guifg=#0b0e0f    guibg=#aaaaaa gui=NONE
 " hi ErrorMsg      guifg=#ff0000    guibg=#ffe7e7    gui=NONE
 hi ErrorMsg      guifg=#ff0000    guibg=#ffff80    gui=NONE
 " hi IncSearch     guifg=#0b0e0f    guibg=#e2e8ff    gui=NONE
-" hi IncSearch     guifg=NONE    guibg=#ece2ff    gui=NONE
-hi IncSearch     guifg=NONE    guibg=#e2e2ff    gui=NONE
-hi Search        guifg=NONE    guibg=#e2e2ff    gui=NONE
+hi IncSearch     guifg=NONE    guibg=#ece2ff    gui=NONE
+" hi IncSearch     guifg=NONE    guibg=#e2e2ff    gui=NONE
+" hi IncSearch     guifg=#0b0e0f    guibg=#ff9c00    gui=NONE
+" hi Search        guifg=NONE    guibg=#e2e2ff    gui=NONE
+hi Search        guifg=NONE    guibg=#ece2ff    gui=NONE
+" hi Search        guifg=#0b0e0f    guibg=#ff9c00    gui=NONE
+" hi Search        guifg=#0b0e0f    guibg=#ff9c00    gui=NONE
 hi MoreMsg       guifg=#696969    guibg=NONE    gui=NONE
 hi ModeMsg       guifg=#505050    guibg=NONE    gui=NONE
 hi LineNr        guifg=#b0b0b0    guibg=NONE    gui=NONE
@@ -279,6 +283,9 @@ hi! CocErrorSign gui=Italic guifg=#FF0000 guibg=#e6e6e6
 hi! CocWarningSign gui=Italic guifg=#FF0000 guibg=#e6e6e6
 hi! CocHintSign gui=Italic guifg=#FF0000 guibg=#e6e6e6
 hi! CocInfoSign gui=Italic guifg=#0066ff guibg=#e6e6e6
+hi! CocHighlightText gui=Italic guifg=#ece2ff guibg=#e6e6e6
+hi! CocHighlightRead gui=Italic guifg=#ece2ff guibg=#e6e6e6
+hi! CocHighlightWrite gui=Italic guifg=#ece2ff guibg=#e6e6e6
 
 hi! SignifyLineAdd guifg=#ffffff guibg=#006600 gui=NONE
 hi! SignifyLineChange guifg=#ffffff guibg=#007878 gui=NONE
@@ -360,3 +367,33 @@ hi pythonClass               guifg=#d12c52 guibg=NONE gui=NONE
 "hi CtrlPMode2      guifg=#e95600 guibg=NONE    gui=NONE
 ""
 "" ---------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
