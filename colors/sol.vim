@@ -252,7 +252,15 @@ hi SpellCap      guifg=#8b4600 guibg=#ffff9a gui=NONE
 hi SpellRare     guifg=#d80000 guibg=#ffff9a gui=NONE
 hi SpellLocal    guifg=#008b00 guibg=#ffff9a gui=NONE
 " hi StatusLine    guifg=#787878    guibg=#dadada    gui=NONE
-hi StatusLine    guifg=#5b5b5b    guibg=#d0d0d0    gui=NONE
+" hi StatusLine    guifg=#d0d0d0    guibg=#5b5b5b    gui=NONE
+
+hi StatusLineError    guifg=#ff0101    guibg=#454545    gui=bold
+hi StatusLineWarning    guifg=#d12c52    guibg=#454545    gui=bold
+hi StatusLineBranch        guifg=#0faf8d    guibg=#454545    gui=NONE
+hi StatusLine    guifg=#ffffff    guibg=#454545    gui=NONE
+hi StatusLine2   guifg=#ffffff    guibg=#454545    gui=NONE
+hi StatusLine3    guifg=#454545    guibg=#c7c7c7    gui=NONE
+
 " hi StatusLine    guifg=#787878    guibg=#c7c7c7    gui=NONE
 " hi StatusLineNC  guifg=#c7c7c7    guibg=#787878    gui=NONE
 hi StatusLineNC  guifg=#c7c7c7    guibg=#e3e3e3    gui=NONE
@@ -330,6 +338,7 @@ hi pythonClass               guifg=#d12c52 guibg=NONE gui=NONE
 "
 "
 " Extras:
+
 " ---------------------------------------------------------------------
 " These are extra parts for highlighting certain external plugins
 " ---------------------------------------------------------------------
