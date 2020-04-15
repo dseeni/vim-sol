@@ -258,6 +258,7 @@ hi StatusLineError    guifg=#ff0101    guibg=#454545    gui=bold
 hi StatusLineError    guifg=#ff0101    guibg=#454545    gui=bold
 hi StatusLineWarning    guifg=#ff7b00    guibg=#454545    gui=bold
 hi StatusLineBranch        guifg=#0faf8d    guibg=#454545    gui=NONE
+hi StatusLineNC    guifg=#c9c9c9    guibg=#454545    gui=NONE
 hi StatusLine    guifg=#ffffff    guibg=#454545    gui=NONE
 hi StatusLine2   guifg=#ffffff    guibg=#454545    gui=NONE
 hi StatusLine3    guifg=#454545    guibg=#c7c7c7    gui=NONE
@@ -265,7 +266,6 @@ hi StatusLine3    guifg=#454545    guibg=#c7c7c7    gui=NONE
 " hi StatusLine    guifg=#787878    guibg=#c7c7c7    gui=NONE
 " hi StatusLineNC  guifg=#c7c7c7    guibg=#787878    gui=NONE
 " hi StatusLineNC  guifg=#c7c7c7    guibg=#5c5c5c    gui=NONE
-hi StatusLineNC    guifg=#454545    guibg=#c7c7c7    gui=NONE
 hi Pmenu         guifg=#454545    guibg=#bbbbbb    gui=NONE
 hi PmenuSel      guifg=#eeeeee    guibg=#0d3c6e    gui=NONE
 hi PmenuSbar     guifg=#bbbbbb    guibg=#bbbbbb    gui=NONE
