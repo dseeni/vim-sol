@@ -241,8 +241,8 @@ hi Folded        guifg=#a0a0a0    guibg=#e1e1e1    gui=NONE
 hi FoldColumn    guifg=#a0a0a0    guibg=#eeeeee    gui=NONE
 hi DiffAdd       guifg=#ffffff guibg=#006600 gui=NONE
 hi DiffChange    guifg=#ffffff guibg=#007878 gui=NONE
-hi DiffDelete    guifg=#ff0101 guibg=#9a0000 gui=NONE
-hi DiffText      guifg=#000000 guibg=#ffb733 gui=NONE
+hi DiffDelete    guifg=#ffffff guibg=#ff0101 gui=NONE
+hi DiffText      guifg=#ffffff guibg=#ff0101 gui=NONE
 " hi SpellBad      guifg=NONE    guibg=NONE    gui=NONE
 " hi SpellCap      guifg=NONE    guibg=NONE    gui=NONE
 " hi SpellRare     guifg=NONE    guibg=NONE    gui=NONE
@@ -297,10 +297,18 @@ hi! CocHighlightText gui=Italic guifg=#ece2ff guibg=#e6e6e6
 hi! CocHighlightRead gui=Italic guifg=#ece2ff guibg=#e6e6e6
 hi! CocHighlightWrite gui=Italic guifg=#ece2ff guibg=#e6e6e6
 
-hi! SignifyLineAdd guifg=#ffffff guibg=#006600 gui=NONE
-hi! SignifyLineChange guifg=#ffffff guibg=#007878 gui=NONE
-hi! SignifyLineDelete guifg=#000000 guibg=#ff0101 gui=NONE
-hi! SignifyLineDeleteFirstLine guifg=#000000 guibg=#ffb733 gui=NONE
+" hi! SignifyLineAdd                  guifg=#ffffff guibg=#006600 gui=NONE
+" hi! SignifyLineChange               guifg=#ffffff guibg=#007878 gui=NONE
+" hi! SignifyLineDelete               guifg=#ffffff guibg=#ff0101 gui=NONE
+" hi! SignifyLineDeleteFirstLine      guifg=#ffffff guibg=#ff0101 gui=NONE
+
+
+highlight link SignifyLineAdd             DiffAdd
+highlight link SignifyLineChange          DiffChange
+highlight link SignifyLineDelete          DiffDelete
+highlight link SignifyLineDeleteFirstLine SignifyLineDelete
+
+
 
 " ---------------------------------------------------------------------
 "
@@ -378,6 +386,8 @@ hi pythonClass               guifg=#d12c52 guibg=NONE gui=NONE
 "hi CtrlPMode2      guifg=#e95600 guibg=NONE    gui=NONE
 ""
 "" ---------------------------------------------------------------------
+
+
 
 
 
