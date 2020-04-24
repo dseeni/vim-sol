@@ -236,7 +236,6 @@ hi Search        guifg=NONE    guibg=#e4e4ff    gui=NONE
 hi MoreMsg       guifg=#696969    guibg=NONE    gui=NONE
 hi ModeMsg       guifg=#505050    guibg=NONE    gui=NONE
 hi LineNr        guifg=#b0b0b0    guibg=NONE    gui=NONE
-hi CursorLineNr  guifg=#b0b0b0    guibg=NONE    gui=NONE
 hi VertSplit     guifg=#5b5b5b    guibg=#d0d0d0    gui=NONE
 hi VisualNOS     guifg=#0b0e0f    guibg=#ffff4d    gui=NONE
 " hi Folded        guifg=#696969    guibg=#c7c7c7    gui=NONE
@@ -284,6 +283,7 @@ hi DSMatch    guifg=#ffffff    guibg=#d70a53    gui=BOLD
 hi CursorLine    guifg=NONE guibg=#fffae3 gui=NONE
 " hi CursorLineNr  guifg=#346d51    guibg=NONE    gui=NONE
 " hi CursorLineNr  guifg=#e82ba1    guibg=NONE    gui=NONE
+" hi CursorLineNr  guifg=#ff0000    guibg=NONE    gui=NONE
 hi CursorLineNr  guifg=#e11896    guibg=NONE    gui=NONE
 hi CursorColumn  guifg=NONE    guibg=#e5e5e5 gui=NONE
 " hi ColorColumn   guifg=NONE    guibg=#ffa07a    gui=NONE
@@ -310,13 +310,10 @@ hi! CocHighlightRead guifg=NONE    guibg=#e4e4ff    gui=NONE
 " hi! SignifyLineDelete               guifg=#ffffff guibg=#ff0101 gui=NONE
 " hi! SignifyLineDeleteFirstLine      guifg=#ffffff guibg=#ff0101 gui=NONE
 
-
 highlight link SignifyLineAdd             DiffAdd
 highlight link SignifyLineChange          DiffChange
 highlight link SignifyLineDelete          DiffDelete
 highlight link SignifyLineDeleteFirstLine SignifyLineDelete
-
-
 
 " ---------------------------------------------------------------------
 "
