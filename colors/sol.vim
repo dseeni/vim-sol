@@ -236,6 +236,7 @@ hi Search        guifg=NONE    guibg=#e4e4ff    gui=NONE
 hi MoreMsg       guifg=#696969    guibg=NONE    gui=NONE
 hi ModeMsg       guifg=#505050    guibg=NONE    gui=NONE
 hi LineNr        guifg=#b0b0b0    guibg=NONE    gui=NONE
+hi CursorLineNr  guifg=#b0b0b0    guibg=NONE    gui=NONE
 hi VertSplit     guifg=#5b5b5b    guibg=#d0d0d0    gui=NONE
 hi VisualNOS     guifg=#0b0e0f    guibg=#ffff4d    gui=NONE
 " hi Folded        guifg=#696969    guibg=#c7c7c7    gui=NONE
@@ -299,8 +300,8 @@ hi! CocHintSign gui=Italic guifg=#FF0000 guibg=#e6e6e6
 hi! CocInfoSign gui=Italic guifg=#0066ff guibg=#e6e6e6
 " hi! CocHighlightText gui=Italic guifg=#ece2ff guibg=#0b0e0f
 " hi! CocHighlightRead gui=Italic guifg=#ece2ff guibg=#0b0e0f
-hi! CocHighlightWrite guifg=NONE    guibg=#ece2ff    gui=NONE
-hi! CocHighlightRead guifg=NONE    guibg=#ece2ff    gui=NONE
+hi! CocHighlightWrite guifg=NONE    guibg=#e4e4ff    gui=NONE
+hi! CocHighlightRead guifg=NONE    guibg=#e4e4ff    gui=NONE
 " hi! CocInfoHighlight gui=Italic guifg=#ece2ff guibg=#0b0e0f
 " hi! CocHighlight gui=Italic guifg=#ece2ff guibg=#0b0e0f
 
