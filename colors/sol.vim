@@ -334,11 +334,11 @@ highlight link SignifyLineDeleteFirstLine SignifyLineDelete
 " hi pythonDot                 guifg=#00bcbc guibg=NONE gui=NONE
 " hi pythonDot                 guifg=#005aff guibg=NONE gui=NONE
 " hi pythonDot                 guifg=#1a6bff guibg=NONE gui=NONE
-hi pythonDot                 guifg=#003eb1 guibg=NONE gui=NONE
+" hi pythonDot                 guifg=#003eb1 guibg=NONE gui=NONE
 " hi pythonDot                 guifg=#800080 guibg=NONE gui=NONE
-hi pythonParameters          guifg=#026440 guibg=NONE gui=NONE
-hi pythonClassParameters     guifg=#026440 guibg=NONE gui=NONE
-hi pythonClass               guifg=#d12c52 guibg=NONE gui=NONE
+" hi pythonParameters          guifg=#026440 guibg=NONE gui=NONE
+" hi pythonClassParameters     guifg=#026440 guibg=NONE gui=NONE
+" hi pythonClass               guifg=#d12c52 guibg=NONE gui=NONE
 "
 " ---------------------------------------------------------------------
 "  Ruby Specifics
