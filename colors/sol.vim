@@ -298,12 +298,15 @@ hi! CocErrorSign gui=Italic guifg=#FF0000 guibg=#e6e6e6
 hi! CocWarningSign gui=Italic guifg=#FF0000 guibg=#e6e6e6
 hi! CocHintSign gui=Italic guifg=#FF0000 guibg=#e6e6e6
 hi! CocInfoSign gui=Italic guifg=#0066ff guibg=#e6e6e6
-" hi! CocHighlightText gui=Italic guifg=#ece2ff guibg=#0b0e0f
-" hi! CocHighlightRead gui=Italic guifg=#ece2ff guibg=#0b0e0f
-hi! CocHighlightWrite guifg=NONE    guibg=#e4e4ff    gui=NONE
-hi! CocHighlightRead guifg=NONE    guibg=#e4e4ff    gui=NONE
-" hi! CocInfoHighlight gui=Italic guifg=#ece2ff guibg=#0b0e0f
-" hi! CocHighlight gui=Italic guifg=#ece2ff guibg=#0b0e0f
+hi! CocHighlightText guifg=NONE guibg=#e4e4ff gui=NONE
+hi! CocHighlightRead guifg=NONE guibg=#e4e4ff gui=NONE
+hi! CocHighlightWrite guifg=NONE guibg=#e4e4ff gui=NONE
+" hi! CocInfoHighlight guifg=NONE guibg=#e4e4ff gui=NONE
+" hi! CocHighlight guifg=NONE guibg=#e4e4ff gui=NONE
+
+
+" hi! CocHighlightWrite guifg=NONE guibg=#e4e4ff gui=NONE
+" hi! CocHighlightRead guifg=NONE guibg=#e4e4ff gui=NONE
 
 " hi! SignifyLineAdd                  guifg=#ffffff guibg=#006600 gui=NONE
 " hi! SignifyLineChange               guifg=#ffffff guibg=#007878 gui=NONE
