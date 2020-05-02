@@ -122,7 +122,7 @@ hi Boolean           guifg=#000080    guibg=NONE    gui=bold
 " hi Identifier        guifg=#e95600    guibg=NONE    gui=NONE
 " hi Identifier        guifg=#db5855    guibg=NONE    gui=NONE
 hi Identifier        guifg=#000000    guibg=NONE    gui=NONE
-" hi Function          guifg=#ff0000    guibg=NONE    gui=NONE
+" hi Function          guifg=#000080    guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi Statement         guifg=#4aa874    guibg=NONE    gui=NONE
 " hi Statement         guifg=#c71585    guibg=NONE    gui=NONE
@@ -151,7 +151,7 @@ hi Operator          guifg=#000000    guibg=NONE    gui=NONE
 " hi Operator          guifg=#ff9050    guibg=NONE    gui=NONE
 " hi Keyword           guifg=NONE    guibg=NONE    gui=NONE
 " hi Exception         guifg=#eb641a    guibg=NONE    gui=NONE
-hi Exception         guifg=#994128    guibg=NONE    gui=bold
+hi Exception         guifg=#000080    guibg=NONE    gui=bold
 " ---------------------------------------------------------------------
 " hi PreProc           guifg=#543978    guibg=NONE    gui=NONE
 " hi PreProc           guifg=#e69500    guibg=NONE    gui=NONE
@@ -335,11 +335,11 @@ highlight link SignifyLineDeleteFirstLine SignifyLineDelete
 " hi pythonDot                 guifg=#00bcbc guibg=NONE gui=NONE
 " hi pythonDot                 guifg=#005aff guibg=NONE gui=NONE
 " hi pythonDot                 guifg=#1a6bff guibg=NONE gui=NONE
-" hi pythonDot                 guifg=#003eb1 guibg=NONE gui=NONE
+" hi pythonDot                 guifg=#000080 guibg=NONE gui=NONE
 " hi pythonDot                 guifg=#800080 guibg=NONE gui=NONE
-" hi pythonParameters          guifg=#026440 guibg=NONE gui=NONE
-" hi pythonClassParameters     guifg=#026440 guibg=NONE gui=NONE
-" hi pythonClass               guifg=#d12c52 guibg=NONE gui=NONE
+hi pythonParameters          guifg=#800080 guibg=NONE gui=NONE
+hi pythonClassParameters     guifg=#800080 guibg=NONE gui=NONE
+hi pythonClass               guifg=#000080 guibg=NONE gui=NONE
 "
 " ---------------------------------------------------------------------
 "  Ruby Specifics
