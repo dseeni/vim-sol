@@ -225,12 +225,12 @@ hi Visual        guifg=#0b0e0f    guibg=#aaaaaa gui=NONE
 hi ErrorMsg      guifg=#ff0000    guibg=#ffff80    gui=NONE
 " hi IncSearch     guifg=#0b0e0f    guibg=#e2e8ff    gui=NONE
 " hi IncSearch     guifg=NONE    guibg=#ece2ff    gui=NONE
-hi IncSearch     guifg=NONE    guibg=#FFEF00    gui=NONE
+hi IncSearch     guifg=#0b0e0f    guibg=#FFEF00    gui=NONE
 " hi IncSearch     guifg=NONE    guibg=#e2e2ff    gui=NONE
 " hi IncSearch     guifg=#0b0e0f    guibg=#ff9c00    gui=NONE
 " hi Search        guifg=NONE    guibg=#e2e2ff    gui=NONE
 " hi Search        guifg=NONE    guibg=#ece2ff    gui=NONE
-hi Search        guifg=NONE    guibg=#FFEF00    gui=NONE
+hi Search        guifg=#0b0e0f    guibg=#FFEF00    gui=NONE
 " hi Search        guifg=#0b0e0f    guibg=#ff9c00    gui=NONE
 " hi Search        guifg=#0b0e0f    guibg=#ff9c00    gui=NONE
 hi MoreMsg       guifg=#696969    guibg=NONE    gui=NONE
