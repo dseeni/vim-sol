@@ -246,7 +246,7 @@ hi FoldColumn    guifg=#a0a0a0    guibg=#eeeeee    gui=NONE
 hi DiffAdd       guifg=NONE guibg=#dfffdb gui=NONE
 hi DiffChange    guifg=NONE guibg=#dbddff gui=NONE
 hi DiffDelete    guifg=NONE guibg=#ffdbdb gui=NONE
-hi DiffText      guifg=NONE guibg=#dbddff  gui=NONE
+hi DiffText      guifg=#0b0e0f guibg=#ff8080  gui=NONE
 " hi SpellBad      guifg=NONE    guibg=NONE    gui=NONE
 " hi SpellCap      guifg=NONE    guibg=NONE    gui=NONE
 " hi SpellRare     guifg=NONE    guibg=NONE    gui=NONE
@@ -311,11 +311,12 @@ hi! CocHighlightWrite guifg=NONE guibg=#e4e4ff gui=NONE
 " hi! SignifyLineAdd                  guifg=#ffffff guibg=#006600 gui=NONE
 " hi! SignifyLineChange               guifg=#ffffff guibg=#007878 gui=NONE
 " hi! SignifyLineDelete               guifg=#ffffff guibg=#ff0101 gui=NONE
-" hi! SignifyLineDeleteFirstLine      guifg=#ffffff guibg=#ff0101 gui=NONE
 
 highlight link SignifyLineAdd             DiffAdd
 highlight link SignifyLineChange          DiffChange
 highlight link SignifyLineDelete          DiffDelete
+highlight link SignifyLineDeleteFirstLine DiffText
+
 
 highlight Sneak guifg=white guibg=magenta ctermfg=white ctermbg=magenta
 " ---------------------------------------------------------------------
