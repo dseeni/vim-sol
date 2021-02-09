@@ -246,7 +246,7 @@ hi FoldColumn    guifg=#a0a0a0    guibg=#eeeeee    gui=NONE
 hi DiffAdd       guifg=NONE guibg=#dfffdb gui=NONE
 hi DiffChange    guifg=NONE guibg=#dbddff gui=NONE
 hi DiffDelete    guifg=NONE guibg=#ffdbdb gui=NONE
-hi DiffText      guifg=NONE guibg=#ffffdb  gui=NONE
+hi DiffText      guifg=#0b0e0f guibg=#ffdbfc  gui=NONE
 " hi SpellBad      guifg=NONE    guibg=NONE    gui=NONE
 " hi SpellCap      guifg=NONE    guibg=NONE    gui=NONE
 " hi SpellRare     guifg=NONE    guibg=NONE    gui=NONE
