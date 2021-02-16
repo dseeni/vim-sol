@@ -73,6 +73,8 @@ highlight clear
 if exists("syntax_on")
     syntax reset
 endif
+
+highlight Normal guibg=Black guifg=White
 let g:colors_name = "sol"
 "
 "
@@ -318,8 +320,10 @@ highlight link SignifyLineChange          DiffChange
 highlight link SignifyLineDelete          DiffDelete
 highlight link SignifyLineDeleteFirstLine DiffText
 
-
 highlight Sneak guifg=white guibg=magenta ctermfg=white ctermbg=magenta
+
+highlight link CommentTokens TODO
+
 " ---------------------------------------------------------------------
 "
 "
