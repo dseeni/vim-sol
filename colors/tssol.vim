@@ -84,7 +84,8 @@ highlight link SignifyLineChange DiffChange
 highlight link SignifyLineDelete DiffDelete
 highlight link SignifyLineDeleteFirstLine DiffText
 highlight Sneak guifg=white guibg=magenta ctermfg=white ctermbg=magenta
-highlight link CommentTokens TODO
+" NOTE: token highlight disabled due to performance
+" highlight link CommentTokens TODO
 hi pythonParameters guifg=#800080 guibg=NONE gui=NONE
 hi pythonClassParameters guifg=#800080 guibg=NONE gui=NONE
 hi pythonClass guifg=#000080 guibg=NONE gui=NONE
