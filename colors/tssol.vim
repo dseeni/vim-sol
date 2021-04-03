@@ -115,7 +115,8 @@ hi Label guifg=#000080 guibg=NONE gui=bold
 hi Repeat guifg=#000080 guibg=NONE gui=bold
 hi SpecialComment guifg=#808080 guibg=NONE gui=Italic
 hi Tag guifg=#dc143c guibg=#FFEF00 gui=BOLD
-hi Todo guifg=#dc143c guibg=#FFEF00 gui=BOLD
+" NOTE: doesnt seem to be needed because already above
+" hi Todo guifg=#dc143c guibg=#FFEF00 gui=BOLD
 hi Macro guifg=#000080 guibg=NONE gui=NONE
 hi diffAdded guifg=NONE guibg=#dfffdb gui=NONE
 hi diffChanged guifg=NONE guibg=#dbddff gui=NONE
