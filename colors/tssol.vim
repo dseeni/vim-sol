@@ -99,7 +99,7 @@ hi healthError guifg=#ff0101 guibg=#454545 gui=bold
 hi healthSuccess guifg=#0faf8d guibg=#454545 gui=NONE
 hi healthWarning guifg=#ff7b00 guibg=#454545 gui=bold
 hi Directory guifg=#0faf8d guibg=#454545 gui=NONE
-hi EndOfBuffer guifg=#000000 guibg=NONE gui=NONE
+hi EndOfBuffer guifg=#b0b0b0 guibg=NONE gui=NONE
 hi Question guifg=#000000 guibg=NONE gui=NONE
 hi StatusLineTerm guifg=#ffffff guibg=#454545 gui=NONE
 hi StatusLineTermNC guifg=#c9c9c9 guibg=#454545 gui=NONE
