@@ -74,11 +74,11 @@ hi WildMenu guifg=#eeeeee guibg=#b7410e gui=NONE
 hi SignColumn guifg=NONE guibg=#eeeeee gui=NONE
 hi! CocErrorSign gui=Italic guifg=#FF0000 guibg=#e6e6e6
 hi! CocWarningSign gui=Italic guifg=#FF0000 guibg=#e6e6e6
-hi! CocHintSign gui=Italic guifg=#FF0000 guibg=#e6e6e6
 hi! CocInfoSign gui=Italic guifg=#0066ff guibg=#e6e6e6
 hi! CocHighlightText guifg=NONE guibg=#e4e4ff gui=NONE
 hi! CocHighlightRead guifg=NONE guibg=#e4e4ff gui=NONE
 hi! CocHighlightWrite guifg=NONE guibg=#e4e4ff gui=NONE
+hi! CocHintSign gui=Italic guifg=#0000ff guibg=#e6e6e6
 highlight link SignifyLineAdd DiffAdd
 highlight link SignifyLineChange DiffChange
 highlight link SignifyLineDelete DiffDelete
