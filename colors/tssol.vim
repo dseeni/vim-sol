@@ -130,6 +130,9 @@ hi gitconfigVariable guifg=#ff0000 guibg=NONE gui=NONE
 hi debugPc guifg=NONE guibg=#ff0000 gui=NONE
 hi debugBreakpoint guifg=#ff0000 guibg=NONE gui=NONE
 
+
+" ################################################################## TREESITTER
+
 " hi TSError guifg=#ff0000 guibg=NONE gui=underline
 " hi TSPunctDelimiter guifg=#660099 guibg=NONE gui=BOLD
 " hi TSPunctBracket guifg=#660099 guibg=NONE gui=BOLD
@@ -147,11 +150,9 @@ hi debugBreakpoint guifg=#ff0000 guibg=NONE gui=NONE
 " hi TSAnnotation guifg=#ff7b00 guibg=#454545 gui=NONE
 " hi TSAttribute guifg=#000000 guibg=NONE gui=NONE
 " hi TSNamespace guifg=#000080 guibg=NONE gui=BOLD
-
 " hi TSFuncBuiltin guifg=#000000 guibg=NONE gui=NONE
 " hi TSFunction guifg=#000000 guibg=NONE gui=NONE
 " hi TSFuncMacro guifg=#000000 guibg=NONE gui=NONE
-
 " hi TSParameter guifg=#000000 guibg=NONE gui=NONE
 " hi TSParameterReference guifg=#000080 guibg=NONE gui=NONE
 " hi TSMethod guifg=#000000 guibg=NONE gui=NONE
@@ -161,22 +162,17 @@ hi debugBreakpoint guifg=#ff0000 guibg=NONE gui=NONE
 " hi TSConditional guifg=#000080 guibg=NONE gui=BOLD
 " hi TSRepeat guifg=#000080 guibg=NONE gui=BOLD
 " hi TSLabel guifg=#000080 guibg=NONE gui=NONE
-
 " hi TSKeyword guifg=#000080 guibg=NONE gui=BOLD
 " hi TSKeywordFunction guifg=#000080 guibg=NONE gui=BOLD
 " hi TSKeywordOperator guifg=#000080 guibg=NONE gui=BOLD
-
 " hi TSOperator guifg=#000080 guibg=NONE gui=NONE
 " hi TSException guifg=#000080 guibg=NONE gui=NONE
-
 " hi TSType guifg=#000000 guibg=NONE gui=NONE
 " hi TSTypeBuiltin guifg=#000080 guibg=NONE gui=BOLD
-
 " hi TSStructure guifg=#800080 guibg=NONE gui=BOLD
 " hi TSInclude guifg=#000000 guibg=NONE gui=BOLD
 " hi TSVariable guifg=#000000 guibg=NONE gui=NONE
 " hi TSVariableBuiltin guifg=#000000 guibg=NONE gui=NONE
-
 " hi TSText guifg=#000000 guibg=NONE gui=NONE
 " hi TSStrong guifg=#000000 guibg=NONE gui=NONE
 " hi TSEmphasis guifg=#000000 guibg=NONE gui=NONE
@@ -184,9 +180,10 @@ hi debugBreakpoint guifg=#ff0000 guibg=NONE gui=NONE
 " hi TSTitle guifg=#000000 guibg=NONE gui=NONE
 " hi TSLiteral guifg=#008080 guibg=NONE gui=BOLD
 " hi TSURI guifg=#000000 guibg=NONE gui=NONE
-
 " hi TSTag guifg=#000080 guibg=NONE gui=NONE
 " hi TSTagDelimiter guifg=#800080 guibg=NONE gui=BOLD
+
+" ############################################################## TREESITTER END
 
 " -----------------------------------------------------------------------------
 " -----------------------------------------------------------------------------
