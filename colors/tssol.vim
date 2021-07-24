@@ -53,7 +53,6 @@ hi! SpellCap guifg=#8b4600 guibg=#ffff9a gui=NONE
 hi! SpellRare guifg=#d80000 guibg=#ffff9a gui=NONE
 hi! SpellLocal guifg=#008b00 guibg=#ffff9a gui=NONE
 hi! StatusLineError guifg=#ff0101 guibg=#454545 gui=bold
-hi! StatusLineError guifg=#ff0101 guibg=#454545 gui=bold
 hi! StatusLineWarning guifg=#ff7b00 guibg=#454545 gui=bold
 hi! StatusLineBranch guifg=#0faf8d guibg=#454545 gui=NONE
 hi! StatusLineNC guifg=#c9c9c9 guibg=#454545 gui=NONE
