@@ -78,6 +78,7 @@ hi! CocHighlightText guifg=NONE guibg=#e4e4ff gui=NONE
 hi! CocHighlightRead guifg=NONE guibg=#e4e4ff gui=NONE
 hi! CocHighlightWrite guifg=NONE guibg=#e4e4ff gui=NONE
 hi! CocHintSign gui=Italic guifg=#0000ff guibg=#e6e6e6
+hi! CocFadeOut gui=Italic guifg=#0000ff guibg=#e6e6e6
 highlight! link SignifyLineAdd DiffAdd
 highlight! link SignifyLineChange DiffChange
 highlight! link SignifyLineDelete DiffDelete
