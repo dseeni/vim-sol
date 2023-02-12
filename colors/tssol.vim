@@ -1,8 +1,10 @@
 set background=light
+
 highlight! clear
-if exists("syntax_on")
-syntax reset
-endif
+" if exists("syntax_on")
+" syntax reset
+" endif
+
 " highlight! Normal guibg=Black guifg=White
 let g:colors_name = "tssol"
 
