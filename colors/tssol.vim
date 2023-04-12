@@ -37,7 +37,7 @@ hi! TODO guifg=#dc143c guibg=#FFEF00 gui=BOLD
 hi! NonText guifg=#b0b0b0 guibg=NONE gui=NONE
 hi! Visual guifg=#0b0e0f guibg=#aaaaaa gui=NONE
 hi! ErrorMsg guifg=#ff0000 guibg=#ffff80 gui=NONE
-hi! IncSearch guifg=#0b0e0f guibg=#FFEF00 gui=NONE
+hi! IncSearch guifg=#0b0e0f guibg=#ffd500 gui=NONE
 hi! Search guifg=#0b0e0f guibg=#FFEF00 gui=NONE
 hi! MoreMsg guifg=#696969 guibg=NONE gui=NONE
 hi! ModeMsg guifg=#505050 guibg=NONE gui=NONE
@@ -96,6 +96,9 @@ hi! pythonClass guifg=#000080 guibg=NONE gui=NONE
 
 hi! illuminatedWord guifg=NONE guibg=#e4e4ff gui=NONE
 
+" TODO: Id686185 -Verify -Req Copilot highlight colors has to be set in sol?
+hi! CopilotSuggestion guifg='#800080'  guibg=NONE
+
 hi! Cursor guifg=#000000 guibg=NONE gui=NONE
 hi! SpecialKey guifg=#660099 guibg=NONE gui=bold
 hi! QuickFixLine guifg=NONE guibg=#fffae3 gui=NONE
@@ -133,7 +136,6 @@ hi! diffOldFile guifg=#ff0000 guibg=NONE gui=NONE
 hi! gitconfigVariable guifg=#ff0000 guibg=NONE gui=NONE
 hi! debugPc guifg=NONE guibg=#ff0000 gui=NONE
 hi! debugBreakpoint guifg=#ff0000 guibg=NONE gui=NONE
-
 
 " ################################################################## TREESITTER
 
@@ -242,6 +244,9 @@ hi! debugBreakpoint guifg=#ff0000 guibg=NONE gui=NONE
 " hi! markdownOrdenord11ListMarker guifg=#800080 guibg=NONE gui=NONE
 " hi! markdownRule guifg=#000080 guibg=NONE gui=NONE
 " hi! markdownUrl guifg=#000080 guibg=NONE gui=underline
+
+
+
 
 
 
