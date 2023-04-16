@@ -1,5 +1,6 @@
 set background=light
 
+" TODO: Id319053 -Verify syntax clear and on are required this if check in coc colors
 highlight! clear
 " if exists("syntax_on")
 " syntax reset
@@ -95,6 +96,12 @@ hi! pythonClass guifg=#000080 guibg=NONE gui=NONE
 " TODO: added in here
 
 hi! illuminatedWord guifg=NONE guibg=#e4e4ff gui=NONE
+" TODO: Id805230 -Verify move quickscope colors to tssol
+" hi! QuickScopePrimary guifg='#0048ff'  guibg=NONE gui=bold,underline
+" hi! QuickScopeSecondary guifg='#bf00ff' guibg=NONE gui=bold,underline
+highlight! QuickScopePrimary guifg='#0048ff' ctermbg=NONE guibg=NONE gui=bold,underline
+highlight! QuickScopeSecondary guifg='#bf00ff' ctermbg=NONE guibg=NONE gui=bold,underline
+
 
 " TODO: Id686185 -Verify -Req Copilot highlight colors has to be set in sol?
 hi! CopilotSuggestion guifg='#800080'  guibg=NONE
