@@ -1,4 +1,4 @@
-hi! clear
+" hi! clear
 " if exists("syntax_on")
 " syntax reset
 " endif
@@ -10,7 +10,7 @@ hi! StatusLineWarning guifg=#ff4400 guibg=#454545 gui=bold
 hi! StatusLine guifg=#ffffff guibg=#454545 gui=NONE
 hi! StatusLine3 guifg=#454545 guibg=#d0d0d0 gui=NONE
 hi! Title guifg=NONE guibg=NONE gui=NONE
-hi! Comment guifg=#808080 guibg=NONE gui=Italic
+hi! Comment guifg=#808080 guibg=NONE gui=italic
 hi! Constant guifg=#000080 guibg=NONE gui=bold
 hi! String guifg=#008080 guibg=NONE gui=bold
 hi! Character guifg=#660099 guibg=NONE gui=bold
@@ -33,7 +33,7 @@ hi! Special guifg=#660099 guibg=NONE gui=bold
 hi! SpecialChar guifg=NONE guibg=NONE gui=bold
 hi! Underlined guifg=#660099 guibg=NONE gui=NONE
 hi! Error guifg=#ff0000 guibg=#ffdbdb gui=NONE
-hi! TODO guifg=#dc143c guibg=#ffef00 gui=BOLD
+hi! TODO guifg=#dc143c guibg=#ffef00 gui=bold
 hi! NonText guifg=#aaaaaa guibg=NONE gui=NONE
 hi! Visual guifg=#000000 guibg=#aaaaaa gui=NONE
 hi! ErrorMsg guifg=#ff0000 guibg=#ffff80 gui=NONE
@@ -51,18 +51,18 @@ hi! DiffDelete guifg=NONE guibg=#ffdbdb gui=NONE
 hi! DiffText guifg=#000000 guibg=#f7dbff gui=NONE
 hi! SpellBad guifg=#ff0000 guibg=#ffff80 gui=NONE
 hi! SpellCap guifg=#8b4600 guibg=#ffff80 gui=NONE
-hi! SpellRare guifg=#d70a53 guibg=#ffff80 gui=NONE
+hi! SpellRare guifg=#dc143c guibg=#ffff80 gui=NONE
 hi! SpellLocal guifg=#008080 guibg=#ffff80 gui=NONE
-hi! Pmenu guifg=#454545 guibg=#bbbbbb gui=NONE
-hi! PmenuSel guifg=#eeeeee guibg=#0d3c6e gui=NONE
-hi! PmenuSbar guifg=#bbbbbb guibg=#bbbbbb gui=NONE
-hi! PmenuThumb guifg=#bbbbbb guibg=#bbbbbb gui=NONE
+hi! Pmenu guifg=#454545 guibg=#aaaaaa gui=NONE
+hi! PmenuSel guifg=#eeeeee guibg=#000080 gui=NONE
+hi! PmenuSbar guifg=#454545 guibg=#aaaaaa gui=NONE
+hi! PmenuThumb guifg=#454545 guibg=#aaaaaa gui=NONE
 hi! MatchParen guifg=#ffffff guibg=#ff4400 gui=NONE
-hi! DSMatch guifg=#ffffff guibg=#d70a53 gui=BOLD
-hi! CursorLine guifg=NONE guibg=#fffae3 gui=NONE
-hi! CursorLineNr guifg=#e11896 guibg=NONE gui=NONE
+hi! DSMatch guifg=#ffffff guibg=#dc143c gui=bold
+" hi! CursorLine guifg=NONE guibg=#fffae3 gui=NONE
+" hi! CursorLineNr guifg=#e11896 guibg=NONE gui=NONE
 hi! CursorColumn guifg=NONE guibg=#eeeeee gui=NONE
-hi! ColorColumn guifg=NONE guibg=#ffdbdb gui=NONE
+" hi! ColorColumn guifg=NONE guibg=#ffdbdb gui=NONE
 hi! WildMenu guifg=#eeeeee guibg=#8b4600 gui=NONE
 hi! SignColumn guifg=NONE guibg=#eeeeee gui=NONE
 hi! Cursor guifg=#000000 guibg=NONE gui=NONE
@@ -85,15 +85,15 @@ hi! Function guifg=#000080 guibg=NONE gui=bold
 hi! Keyword guifg=#000080 guibg=NONE gui=bold
 hi! Label guifg=#000080 guibg=NONE gui=bold
 hi! Repeat guifg=#000080 guibg=NONE gui=bold
-hi! Tag guifg=#dc143c guibg=#ffef00 gui=BOLD
+hi! Tag guifg=#dc143c guibg=#ffef00 gui=bold
 hi! Macro guifg=#000080 guibg=NONE gui=NONE
 hi! debugPc guifg=NONE guibg=#ff0000 gui=NONE
 hi! debugBreakpoint guifg=#ff0000 guibg=NONE gui=NONE
-hi! CocErrorSign gui=Italic guifg=#ff0000 guibg=#eeeeee
-hi! CocWarningSign gui=Italic guifg=#ff0000 guibg=#eeeeee
-hi! CocInfoSign gui=Italic guifg=#0000ff guibg=#eeeeee
-hi! CocHintSign gui=Italic guifg=#0000ff guibg=#eeeeee
-hi! CocFadeOut gui=Italic guifg=#0000ff guibg=#eeeeee
+hi! CocErrorSign gui=italic guifg=#ff0000 guibg=#eeeeee
+hi! CocWarningSign gui=italic guifg=#ff0000 guibg=#eeeeee
+hi! CocInfoSign gui=italic guifg=#0000ff guibg=#eeeeee
+hi! CocHintSign gui=italic guifg=#0000ff guibg=#eeeeee
+hi! CocFadeOut gui=italic guifg=#0000ff guibg=#eeeeee
 hi! illuminatedWord guifg=NONE guibg=#e4e4ff gui=NONE
 hi! QuickScopePrimary guifg=#0048ff ctermbg=NONE guibg=NONE gui=bold,underline
 hi! QuickScopeSecondary guifg=#bf00ff ctermbg=NONE guibg=NONE gui=bold,underline
