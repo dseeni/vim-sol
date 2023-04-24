@@ -10,7 +10,7 @@ hi! Title guifg=NONE guibg=NONE gui=NONE
 hi! Comment guifg=#808080 guibg=NONE gui=Italic
 hi! Constant guifg=#000080 guibg=NONE gui=bold
 hi! String guifg=#008080 guibg=NONE gui=bold
-hi! Character guifg=#543978 guibg=NONE gui=bold
+hi! Character guifg=#800080 guibg=NONE gui=bold
 hi! Number guifg=#0000ff guibg=NONE gui=NONE
 hi! Boolean guifg=#000080 guibg=NONE gui=bold
 hi! Identifier guifg=#000000 guibg=NONE gui=NONE
@@ -26,9 +26,9 @@ hi! Type guifg=#839a00 guibg=NONE gui=bold
 hi! StorageClass guifg=NONE guibg=NONE gui=bold
 hi! Structure guifg=NONE guibg=NONE gui=bold
 hi! Typedef guifg=NONE guibg=NONE gui=bold
-hi! Special guifg=#660099 guibg=NONE gui=bold
+hi! Special guifg=#800080 guibg=NONE gui=bold
 hi! SpecialChar guifg=NONE guibg=NONE gui=bold
-hi! Underlined guifg=#6a5acd guibg=NONE gui=NONE
+hi! Underlined guifg=#800080 guibg=NONE gui=NONE
 hi! Error guifg=#ff0000 guibg=#ffcdcd gui=NONE
 hi! TODO guifg=#dc143c guibg=#ffef00 gui=BOLD
 hi! NonText guifg=#aaaaaa guibg=NONE gui=NONE
@@ -38,9 +38,9 @@ hi! ErrorMsg guifg=#ff0000 guibg=#ffff80 gui=NONE
 hi! IncSearch guifg=#000000 guibg=#ffd500 gui=NONE
 hi! Search guifg=#000000 guibg=#ffef00 gui=NONE
 hi! MoreMsg guifg=#808080 guibg=NONE gui=NONE
-hi! ModeMsg guifg=#505050 guibg=NONE gui=NONE
+hi! ModeMsg guifg=#808080 guibg=NONE gui=NONE
 hi! LineNr guifg=#aaaaaa guibg=NONE gui=NONE
-hi! VertSplit guifg=#5b5b5b guibg=#d0d0d0 gui=NONE
+hi! VertSplit guifg=#808080 guibg=#d0d0d0 gui=NONE
 hi! Folded guifg=#aaaaaa guibg=#e1e1e1 gui=NONE
 hi! FoldColumn guifg=#aaaaaa guibg=#e1e1e1 gui=NONE
 hi! DiffAdd guifg=NONE guibg=#dfffdb gui=NONE
@@ -51,7 +51,7 @@ hi! SpellBad guifg=#ff0000 guibg=#ffff9a gui=NONE
 hi! SpellCap guifg=#8b4600 guibg=#ffff9a gui=NONE
 hi! SpellRare guifg=#d80000 guibg=#ffff9a gui=NONE
 hi! SpellLocal guifg=#008b00 guibg=#ffff9a gui=NONE
-hi! StatusLineError guifg=#ff0101 guibg=#808080 gui=bold
+hi! StatusLineError guifg=#ff0000 guibg=#808080 gui=bold
 hi! StatusLineWarning guifg=#ff7b00 guibg=#808080 gui=bold
 hi! StatusLineBranch guifg=#0faf8d guibg=#808080 gui=NONE
 hi! StatusLineNC guifg=#d0d0d0 guibg=#808080 gui=NONE
@@ -103,10 +103,10 @@ highlight! QuickScopeSecondary guifg='#bf00ff' ctermbg=NONE guibg=NONE gui=bold,
 hi! CopilotSuggestion guifg='#800080'  guibg=NONE
 
 hi! Cursor guifg=#000000 guibg=NONE gui=NONE
-hi! SpecialKey guifg=#660099 guibg=NONE gui=bold
+hi! SpecialKey guifg=#800080 guibg=NONE gui=bold
 hi! QuickFixLine guifg=NONE guibg=#fffae3 gui=NONE
 hi! Terminal guifg=#000000 guibg=#ffffff gui=NONE
-hi! healthError guifg=#ff0101 guibg=#808080 gui=bold
+hi! healthError guifg=#ff0000 guibg=#808080 gui=bold
 hi! healthSuccess guifg=#0faf8d guibg=#808080 gui=NONE
 hi! healthWarning guifg=#ff7b00 guibg=#808080 gui=bold
 hi! Directory guifg=#0faf8d guibg=#808080 gui=NONE
@@ -117,9 +117,9 @@ hi! StatusLineTermNC guifg=#d0d0d0 guibg=#808080 gui=NONE
 hi! WarningMsg guifg=#ff7b00 guibg=#808080 gui=bold
 hi! TabLine guifg=#ffffff guibg=#808080 gui=NONE
 hi! TabLineFill guifg=#808080 guibg=#d0d0d0 gui=NONE
-hi! TabLineSel guifg=#ffffff guibg=#454545 gui=NONE
-hi! Delimeter guifg=#660099 guibg=NONE gui=bold
-hi! Float guifg=#660099 guibg=NONE gui=bold
+hi! TabLineSel guifg=#ffffff guibg=#808080 gui=NONE
+hi! Delimeter guifg=#800080 guibg=NONE gui=bold
+hi! Float guifg=#800080 guibg=NONE gui=bold
 hi! Function guifg=#000080 guibg=NONE gui=bold
 hi! Keyword guifg=#000080 guibg=NONE gui=bold
 hi! Label guifg=#000080 guibg=NONE gui=bold
