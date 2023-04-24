@@ -1,7 +1,7 @@
-highlight! clear
-if exists("syntax_on")
-syntax reset
-endif
+" highlight! clear
+" if exists("syntax_on")
+" syntax reset
+" endif
 
 set background=light
 let g:colors_name = "tssol"
