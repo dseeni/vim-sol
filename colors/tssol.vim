@@ -114,14 +114,4 @@ hi! link SignifyLineAdd DiffAdd
 hi! link SignifyLineChange DiffChange
 hi! link SignifyLineDelete DiffDelete
 hi! link SignifyLineDeleteFirstLine DiffText
-" hi! CocHighlightText guifg=NONE guibg=#e4e4ff gui=NONE
-" hi! CocHighlightRead guifg=NONE guibg=#e4e4ff gui=NONE
-" hi! CocHighlightWrite guifg=NONE guibg=#e4e4ff gui=NONE
-" hi! diffAdded guifg=NONE guibg=#dfffdb gui=NONE
-" hi! diffChanged guifg=NONE guibg=#e4e4ff gui=NONE
-" hi! diffRemoved guifg=NONE guibg=#ffdbdb gui=NONE
-" hi! diffFileId guifg=#ff0000 guibg=NONE gui=NONE
-" hi! diffFile guifg=#ff0000 guibg=NONE gui=NONE
-" hi! diffNewFile guifg=#008b00 guibg=NONE gui=NONE
-" hi! diffOldFile guifg=#ff0000 guibg=NONE gui=NONE
 
