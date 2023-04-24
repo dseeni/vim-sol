@@ -7,6 +7,7 @@ let g:colors_name = "tssol"
 hi! Normal guifg=#000000 guibg=None gui=NONE
 hi! StatusLineError guifg=#ff0000 guibg=#454545 gui=bold
 hi! StatusLineWarning guifg=#ff4400 guibg=#454545 gui=bold
+hi! StatusLineNC guifg=#d0d0d0 guibg=#454545 gui=NONE
 hi! StatusLine guifg=#ffffff guibg=#454545 gui=NONE
 hi! StatusLine3 guifg=#454545 guibg=#d0d0d0 gui=NONE
 hi! Title guifg=NONE guibg=NONE gui=NONE
