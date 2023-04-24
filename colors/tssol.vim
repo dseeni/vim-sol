@@ -1,8 +1,7 @@
-" highlight! clear
+highlight! clear
 " if exists("syntax_on")
 " syntax reset
 " endif
-
 set background=light
 let g:colors_name = "tssol"
 hi! Normal guifg=#000000 guibg=None gui=NONE
@@ -10,7 +9,7 @@ hi! Title guifg=NONE guibg=NONE gui=NONE
 hi! Comment guifg=#808080 guibg=NONE gui=Italic
 hi! Constant guifg=#000080 guibg=NONE gui=bold
 hi! String guifg=#008080 guibg=NONE gui=bold
-hi! Character guifg=#800080 guibg=NONE gui=bold
+hi! Character guifg=#660099 guibg=NONE gui=bold
 hi! Number guifg=#0000ff guibg=NONE gui=NONE
 hi! Boolean guifg=#000080 guibg=NONE gui=bold
 hi! Identifier guifg=#000000 guibg=NONE gui=NONE
@@ -26,9 +25,9 @@ hi! Type guifg=#839a00 guibg=NONE gui=bold
 hi! StorageClass guifg=NONE guibg=NONE gui=bold
 hi! Structure guifg=NONE guibg=NONE gui=bold
 hi! Typedef guifg=NONE guibg=NONE gui=bold
-hi! Special guifg=#800080 guibg=NONE gui=bold
+hi! Special guifg=#660099 guibg=NONE gui=bold
 hi! SpecialChar guifg=NONE guibg=NONE gui=bold
-hi! Underlined guifg=#800080 guibg=NONE gui=NONE
+hi! Underlined guifg=#660099 guibg=NONE gui=NONE
 hi! Error guifg=#ff0000 guibg=#ffdbdb gui=NONE
 hi! TODO guifg=#dc143c guibg=#ffef00 gui=BOLD
 hi! NonText guifg=#aaaaaa guibg=NONE gui=NONE
@@ -51,14 +50,14 @@ hi! SpellBad guifg=#ff0000 guibg=#ffff9a gui=NONE
 hi! SpellCap guifg=#8b4600 guibg=#ffff9a gui=NONE
 hi! SpellRare guifg=#d80000 guibg=#ffff9a gui=NONE
 hi! SpellLocal guifg=#008b00 guibg=#ffff9a gui=NONE
-hi! StatusLineError guifg=#ff0000 guibg=#808080 gui=bold
-hi! StatusLineWarning guifg=#ff7b00 guibg=#808080 gui=bold
-hi! StatusLineBranch guifg=#0faf8d guibg=#808080 gui=NONE
-hi! StatusLineNC guifg=#d0d0d0 guibg=#808080 gui=NONE
-hi! StatusLine guifg=#ffffff guibg=#808080 gui=NONE
-hi! StatusLine2 guifg=#ffffff guibg=#808080 gui=NONE
-hi! StatusLine3 guifg=#808080 guibg=#d0d0d0 gui=NONE
-hi! Pmenu guifg=#808080 guibg=#bbbbbb gui=NONE
+hi! StatusLineError guifg=#ff0000 guibg=#454545 gui=bold
+hi! StatusLineWarning guifg=#ff7b00 guibg=#454545 gui=bold
+hi! StatusLineBranch guifg=#0faf8d guibg=#454545 gui=NONE
+hi! StatusLineNC guifg=#d0d0d0 guibg=#454545 gui=NONE
+hi! StatusLine guifg=#ffffff guibg=#454545 gui=NONE
+hi! StatusLine2 guifg=#ffffff guibg=#454545 gui=NONE
+hi! StatusLine3 guifg=#454545 guibg=#d0d0d0 gui=NONE
+hi! Pmenu guifg=#454545 guibg=#bbbbbb gui=NONE
 hi! PmenuSel guifg=#eeeeee guibg=#0d3c6e gui=NONE
 hi! PmenuSbar guifg=#bbbbbb guibg=#bbbbbb gui=NONE
 hi! PmenuThumb guifg=#bbbbbb guibg=#bbbbbb gui=NONE
@@ -103,23 +102,23 @@ highlight! QuickScopeSecondary guifg='#bf00ff' ctermbg=NONE guibg=NONE gui=bold,
 hi! CopilotSuggestion guifg='#800080'  guibg=NONE
 
 hi! Cursor guifg=#000000 guibg=NONE gui=NONE
-hi! SpecialKey guifg=#800080 guibg=NONE gui=bold
+hi! SpecialKey guifg=#660099 guibg=NONE gui=bold
 hi! QuickFixLine guifg=NONE guibg=#fffae3 gui=NONE
 hi! Terminal guifg=#000000 guibg=#ffffff gui=NONE
-hi! healthError guifg=#ff0000 guibg=#808080 gui=bold
-hi! healthSuccess guifg=#0faf8d guibg=#808080 gui=NONE
-hi! healthWarning guifg=#ff7b00 guibg=#808080 gui=bold
-hi! Directory guifg=#0faf8d guibg=#808080 gui=NONE
+hi! healthError guifg=#ff0000 guibg=#454545 gui=bold
+hi! healthSuccess guifg=#0faf8d guibg=#454545 gui=NONE
+hi! healthWarning guifg=#ff7b00 guibg=#454545 gui=bold
+hi! Directory guifg=#0faf8d guibg=#454545 gui=NONE
 hi! EndOfBuffer guifg=#b0b0b0 guibg=NONE gui=NONE
 hi! Question guifg=#000000 guibg=NONE gui=NONE
-hi! StatusLineTerm guifg=#ffffff guibg=#808080 gui=NONE
-hi! StatusLineTermNC guifg=#d0d0d0 guibg=#808080 gui=NONE
-hi! WarningMsg guifg=#ff7b00 guibg=#808080 gui=bold
-hi! TabLine guifg=#ffffff guibg=#808080 gui=NONE
-hi! TabLineFill guifg=#808080 guibg=#d0d0d0 gui=NONE
-hi! TabLineSel guifg=#ffffff guibg=#808080 gui=NONE
-hi! Delimeter guifg=#800080 guibg=NONE gui=bold
-hi! Float guifg=#800080 guibg=NONE gui=bold
+hi! StatusLineTerm guifg=#ffffff guibg=#454545 gui=NONE
+hi! StatusLineTermNC guifg=#d0d0d0 guibg=#454545 gui=NONE
+hi! WarningMsg guifg=#ff7b00 guibg=#454545 gui=bold
+hi! TabLine guifg=#ffffff guibg=#454545 gui=NONE
+hi! TabLineFill guifg=#454545 guibg=#d0d0d0 gui=NONE
+hi! TabLineSel guifg=#ffffff guibg=#454545 gui=NONE
+hi! Delimeter guifg=#660099 guibg=NONE gui=bold
+hi! Float guifg=#660099 guibg=NONE gui=bold
 hi! Function guifg=#000080 guibg=NONE gui=bold
 hi! Keyword guifg=#000080 guibg=NONE gui=bold
 hi! Label guifg=#000080 guibg=NONE gui=bold
