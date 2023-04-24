@@ -1,4 +1,4 @@
-highlight! clear
+hi! clear
 " if exists("syntax_on")
 " syntax reset
 " endif
@@ -78,11 +78,11 @@ hi! CocInfoSign gui=Italic guifg=#0066ff guibg=#e1e1e1
 " hi! CocHighlightWrite guifg=NONE guibg=#e4e4ff gui=NONE
 hi! CocHintSign gui=Italic guifg=#0000ff guibg=#e1e1e1
 hi! CocFadeOut gui=Italic guifg=#0000ff guibg=#e1e1e1
-highlight! link SignifyLineAdd DiffAdd
-highlight! link SignifyLineChange DiffChange
-highlight! link SignifyLineDelete DiffDelete
-highlight! link SignifyLineDeleteFirstLine DiffText
-highlight! Sneak guifg=white guibg=magenta ctermfg=white ctermbg=magenta
+hi! link SignifyLineAdd DiffAdd
+hi! link SignifyLineChange DiffChange
+hi! link SignifyLineDelete DiffDelete
+hi! link SignifyLineDeleteFirstLine DiffText
+hi! Sneak guifg=white guibg=magenta ctermfg=white ctermbg=magenta
 " NOTE: token highlight disabled due to performance
 " highlight link CommentTokens TODO
 hi! pythonParameters guifg=#800080 guibg=NONE gui=NONE
@@ -90,16 +90,12 @@ hi! pythonClassParameters guifg=#800080 guibg=NONE gui=NONE
 hi! pythonClass guifg=#000080 guibg=NONE gui=NONE
 
 " TODO: added in here
-
 hi! illuminatedWord guifg=NONE guibg=#e4e4ff gui=NONE
-" TODO: Id805230 -Verify move quickscope colors to tssol
-" hi! QuickScopePrimary guifg='#0048ff'  guibg=NONE gui=bold,underline
-" hi! QuickScopeSecondary guifg='#bf00ff' guibg=NONE gui=bold,underline
-highlight! QuickScopePrimary guifg='#0048ff' ctermbg=NONE guibg=NONE gui=bold,underline
-highlight! QuickScopeSecondary guifg='#bf00ff' ctermbg=NONE guibg=NONE gui=bold,underline
+hi! QuickScopePrimary guifg=#0048ff ctermbg=NONE guibg=NONE gui=bold,underline
+hi! QuickScopeSecondary guifg=#bf00ff ctermbg=NONE guibg=NONE gui=bold,underline
 
 " TODO: Id686185 -Verify -Req Copilot highlight colors has to be set in sol?
-hi! CopilotSuggestion guifg='#800080'  guibg=NONE
+hi! CopilotSuggestion guifg=#800080 guibg=NONE
 
 hi! Cursor guifg=#000000 guibg=NONE gui=NONE
 hi! SpecialKey guifg=#660099 guibg=NONE gui=bold
