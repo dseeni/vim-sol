@@ -60,7 +60,6 @@ hi! PmenuThumb guifg=#454545 guibg=#aaaaaa gui=NONE
 hi! MatchParen guifg=#ffffff guibg=#ff4400 gui=NONE
 hi! DSMatch guifg=#ffffff guibg=#dc143c gui=bold
 hi! CursorColumn guifg=NONE guibg=#eeeeee gui=NONE
-hi! ColorColumn guifg=NONE guibg=#ffdbdb gui=NONE
 hi! WildMenu guifg=#eeeeee guibg=#8b4600 gui=NONE
 hi! SignColumn guifg=NONE guibg=#eeeeee gui=NONE
 hi! Cursor guifg=#000000 guibg=NONE gui=NONE
