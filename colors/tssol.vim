@@ -1,14 +1,11 @@
-set background=light
-
-" TODO: Id319053 -Verify syntax clear and on are required this if check in coc colors
 highlight! clear
-" if exists("syntax_on")
-" syntax reset
-" endif
+" TODO: Id319053 -Verify syntax clear and on are required this if check in coc colors
+if exists("syntax_on")
+syntax reset
+endif
 
-" highlight! Normal guibg=Black guifg=White
+set background=light
 let g:colors_name = "tssol"
-
 hi! Normal guifg=#0b0e0f guibg=None gui=NONE
 hi! Title guifg=NONE guibg=NONE gui=NONE
 hi! Comment guifg=#808080 guibg=NONE gui=Italic
@@ -37,6 +34,7 @@ hi! Error guifg=#ff0000 guibg=#ffcdcd gui=NONE
 hi! TODO guifg=#dc143c guibg=#FFEF00 gui=BOLD
 hi! NonText guifg=#b0b0b0 guibg=NONE gui=NONE
 hi! Visual guifg=#0b0e0f guibg=#aaaaaa gui=NONE
+hi! VisualNOS guifg=#0b0e0f guibg=#ffff4d gui=NONE
 hi! ErrorMsg guifg=#ff0000 guibg=#ffff80 gui=NONE
 hi! IncSearch guifg=#0b0e0f guibg=#ffd500 gui=NONE
 hi! Search guifg=#0b0e0f guibg=#FFEF00 gui=NONE
@@ -44,7 +42,6 @@ hi! MoreMsg guifg=#696969 guibg=NONE gui=NONE
 hi! ModeMsg guifg=#505050 guibg=NONE gui=NONE
 hi! LineNr guifg=#b0b0b0 guibg=NONE gui=NONE
 hi! VertSplit guifg=#5b5b5b guibg=#d0d0d0 gui=NONE
-hi! VisualNOS guifg=#0b0e0f guibg=#ffff4d gui=NONE
 hi! Folded guifg=#a0a0a0 guibg=#e1e1e1 gui=NONE
 hi! FoldColumn guifg=#a0a0a0 guibg=#eeeeee gui=NONE
 hi! DiffAdd guifg=NONE guibg=#dfffdb gui=NONE
@@ -102,7 +99,6 @@ hi! illuminatedWord guifg=NONE guibg=#e4e4ff gui=NONE
 " hi! QuickScopeSecondary guifg='#bf00ff' guibg=NONE gui=bold,underline
 highlight! QuickScopePrimary guifg='#0048ff' ctermbg=NONE guibg=NONE gui=bold,underline
 highlight! QuickScopeSecondary guifg='#bf00ff' ctermbg=NONE guibg=NONE gui=bold,underline
-
 
 " TODO: Id686185 -Verify -Req Copilot highlight colors has to be set in sol?
 hi! CopilotSuggestion guifg='#800080'  guibg=NONE
@@ -252,35 +248,4 @@ hi! debugBreakpoint guifg=#ff0000 guibg=NONE gui=NONE
 " hi! markdownOrdenord11ListMarker guifg=#800080 guibg=NONE gui=NONE
 " hi! markdownRule guifg=#000080 guibg=NONE gui=NONE
 " hi! markdownUrl guifg=#000080 guibg=NONE gui=underline
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
