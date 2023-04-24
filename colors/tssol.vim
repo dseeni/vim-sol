@@ -1,4 +1,4 @@
-hi! clear
+" hi! clear
 " if exists("syntax_on")
 " syntax reset
 " endif
@@ -32,7 +32,7 @@ hi! Error guifg=#ff0000 guibg=#ffdbdb gui=NONE
 hi! TODO guifg=#dc143c guibg=#ffef00 gui=BOLD
 hi! NonText guifg=#aaaaaa guibg=NONE gui=NONE
 hi! Visual guifg=#000000 guibg=#aaaaaa gui=NONE
-hi! VisualNOS guifg=#000000 guibg=#ffff9a gui=NONE
+" hi! VisualNOS guifg=#000000 guibg=#aaaaaa gui=NONE
 hi! ErrorMsg guifg=#ff0000 guibg=#ffff9a gui=NONE
 hi! IncSearch guifg=#000000 guibg=#ffd500 gui=NONE
 hi! Search guifg=#000000 guibg=#ffef00 gui=NONE
@@ -69,34 +69,6 @@ hi! CursorColumn guifg=NONE guibg=#e5e5e5 gui=NONE
 hi! ColorColumn guifg=NONE guibg=#ffdbdb gui=NONE
 hi! WildMenu guifg=#eeeeee guibg=#8b4600 gui=NONE
 hi! SignColumn guifg=NONE guibg=#eeeeee gui=NONE
-hi! CocErrorSign gui=Italic guifg=#ff0000 guibg=#e1e1e1
-hi! CocWarningSign gui=Italic guifg=#ff0000 guibg=#e1e1e1
-hi! CocInfoSign gui=Italic guifg=#0066ff guibg=#e1e1e1
-" TODO: Id980081 -Verify -Req CocHighlight
-" hi! CocHighlightText guifg=NONE guibg=#e4e4ff gui=NONE
-" hi! CocHighlightRead guifg=NONE guibg=#e4e4ff gui=NONE
-" hi! CocHighlightWrite guifg=NONE guibg=#e4e4ff gui=NONE
-hi! CocHintSign gui=Italic guifg=#0000ff guibg=#e1e1e1
-hi! CocFadeOut gui=Italic guifg=#0000ff guibg=#e1e1e1
-hi! link SignifyLineAdd DiffAdd
-hi! link SignifyLineChange DiffChange
-hi! link SignifyLineDelete DiffDelete
-hi! link SignifyLineDeleteFirstLine DiffText
-hi! Sneak guifg=white guibg=magenta ctermfg=white ctermbg=magenta
-" NOTE: token highlight disabled due to performance
-" highlight link CommentTokens TODO
-hi! pythonParameters guifg=#800080 guibg=NONE gui=NONE
-hi! pythonClassParameters guifg=#800080 guibg=NONE gui=NONE
-hi! pythonClass guifg=#000080 guibg=NONE gui=NONE
-
-" TODO: added in here
-hi! illuminatedWord guifg=NONE guibg=#e4e4ff gui=NONE
-hi! QuickScopePrimary guifg=#0048ff ctermbg=NONE guibg=NONE gui=bold,underline
-hi! QuickScopeSecondary guifg=#bf00ff ctermbg=NONE guibg=NONE gui=bold,underline
-
-" TODO: Id686185 -Verify -Req Copilot highlight colors has to be set in sol?
-hi! CopilotSuggestion guifg=#800080 guibg=NONE
-
 hi! Cursor guifg=#000000 guibg=NONE gui=NONE
 hi! SpecialKey guifg=#660099 guibg=NONE gui=bold
 hi! QuickFixLine guifg=NONE guibg=#fffae3 gui=NONE
@@ -121,8 +93,6 @@ hi! Label guifg=#000080 guibg=NONE gui=bold
 hi! Repeat guifg=#000080 guibg=NONE gui=bold
 hi! SpecialComment guifg=#808080 guibg=NONE gui=Italic
 hi! Tag guifg=#dc143c guibg=#ffef00 gui=BOLD
-" NOTE: doesnt seem to be needed because already above
-" hi! Todo guifg=#dc143c guibg=#ffef00 gui=BOLD
 hi! Macro guifg=#000080 guibg=NONE gui=NONE
 hi! diffAdded guifg=NONE guibg=#dfffdb gui=NONE
 hi! diffChanged guifg=NONE guibg=#dbddff gui=NONE
@@ -134,4 +104,24 @@ hi! diffOldFile guifg=#ff0000 guibg=NONE gui=NONE
 hi! gitconfigVariable guifg=#ff0000 guibg=NONE gui=NONE
 hi! debugPc guifg=NONE guibg=#ff0000 gui=NONE
 hi! debugBreakpoint guifg=#ff0000 guibg=NONE gui=NONE
+hi! CocErrorSign gui=Italic guifg=#ff0000 guibg=#e1e1e1
+hi! CocWarningSign gui=Italic guifg=#ff0000 guibg=#e1e1e1
+hi! CocInfoSign gui=Italic guifg=#0066ff guibg=#e1e1e1
+hi! CocHintSign gui=Italic guifg=#0000ff guibg=#e1e1e1
+hi! CocFadeOut gui=Italic guifg=#0000ff guibg=#e1e1e1
+" hi! CocHighlightText guifg=NONE guibg=#e4e4ff gui=NONE
+" hi! CocHighlightRead guifg=NONE guibg=#e4e4ff gui=NONE
+" hi! CocHighlightWrite guifg=NONE guibg=#e4e4ff gui=NONE
+hi! illuminatedWord guifg=NONE guibg=#e4e4ff gui=NONE
+hi! QuickScopePrimary guifg=#0048ff ctermbg=NONE guibg=NONE gui=bold,underline
+hi! QuickScopeSecondary guifg=#bf00ff ctermbg=NONE guibg=NONE gui=bold,underline
+hi! CopilotSuggestion guifg=#800080 guibg=NONE
+hi! pythonParameters guifg=#800080 guibg=NONE gui=NONE
+hi! pythonClassParameters guifg=#800080 guibg=NONE gui=NONE
+hi! pythonClass guifg=#000080 guibg=NONE gui=NONE
+hi! Sneak guifg=white guibg=magenta ctermfg=white ctermbg=magenta
+hi! link SignifyLineAdd DiffAdd
+hi! link SignifyLineChange DiffChange
+hi! link SignifyLineDelete DiffDelete
+hi! link SignifyLineDeleteFirstLine DiffText
 
