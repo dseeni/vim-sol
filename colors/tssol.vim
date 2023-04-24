@@ -33,8 +33,8 @@ hi! Error guifg=#ff0000 guibg=#ffdbdb gui=NONE
 hi! TODO guifg=#dc143c guibg=#ffef00 gui=BOLD
 hi! NonText guifg=#aaaaaa guibg=NONE gui=NONE
 hi! Visual guifg=#000000 guibg=#aaaaaa gui=NONE
-hi! VisualNOS guifg=#000000 guibg=#ffff80 gui=NONE
-hi! ErrorMsg guifg=#ff0000 guibg=#ffff80 gui=NONE
+hi! VisualNOS guifg=#000000 guibg=#ffff9a gui=NONE
+hi! ErrorMsg guifg=#ff0000 guibg=#ffff9a gui=NONE
 hi! IncSearch guifg=#000000 guibg=#ffd500 gui=NONE
 hi! Search guifg=#000000 guibg=#ffef00 gui=NONE
 hi! MoreMsg guifg=#808080 guibg=NONE gui=NONE
