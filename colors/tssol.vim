@@ -1,10 +1,14 @@
-" hi! clear
+hi! clear
 " if exists("syntax_on")
 " syntax reset
 " endif
 set background=light
 let g:colors_name = "tssol"
 hi! Normal guifg=#000000 guibg=None gui=NONE
+hi! StatusLineError guifg=#ff0000 guibg=#454545 gui=bold
+hi! StatusLineWarning guifg=#ff4400 guibg=#454545 gui=bold
+hi! StatusLine guifg=#ffffff guibg=#454545 gui=NONE
+hi! StatusLine3 guifg=#454545 guibg=#d0d0d0 gui=NONE
 hi! Title guifg=NONE guibg=NONE gui=NONE
 hi! Comment guifg=#808080 guibg=NONE gui=Italic
 hi! Constant guifg=#000080 guibg=NONE gui=bold
@@ -49,12 +53,6 @@ hi! SpellBad guifg=#ff0000 guibg=#ffff80 gui=NONE
 hi! SpellCap guifg=#8b4600 guibg=#ffff80 gui=NONE
 hi! SpellRare guifg=#d70a53 guibg=#ffff80 gui=NONE
 hi! SpellLocal guifg=#008080 guibg=#ffff80 gui=NONE
-hi! StatusLineError guifg=#ff0000 guibg=#454545 gui=bold
-hi! StatusLineWarning guifg=#ff4400 guibg=#454545 gui=bold
-hi! StatusLineNC guifg=#d0d0d0 guibg=#454545 gui=NONE
-hi! StatusLine guifg=#ffffff guibg=#454545 gui=NONE
-hi! StatusLine2 guifg=#ffffff guibg=#454545 gui=NONE
-hi! StatusLine3 guifg=#454545 guibg=#d0d0d0 gui=NONE
 hi! Pmenu guifg=#454545 guibg=#bbbbbb gui=NONE
 hi! PmenuSel guifg=#eeeeee guibg=#0d3c6e gui=NONE
 hi! PmenuSbar guifg=#bbbbbb guibg=#bbbbbb gui=NONE
@@ -77,8 +75,6 @@ hi! healthWarning guifg=#ff4400 guibg=#454545 gui=bold
 hi! Directory guifg=#008080 guibg=#454545 gui=NONE
 hi! EndOfBuffer guifg=#aaaaaa guibg=NONE gui=NONE
 hi! Question guifg=#000000 guibg=NONE gui=NONE
-hi! StatusLineTerm guifg=#ffffff guibg=#454545 gui=NONE
-hi! StatusLineTermNC guifg=#d0d0d0 guibg=#454545 gui=NONE
 hi! WarningMsg guifg=#ff4400 guibg=#454545 gui=bold
 hi! TabLine guifg=#ffffff guibg=#454545 gui=NONE
 hi! TabLineFill guifg=#454545 guibg=#d0d0d0 gui=NONE
