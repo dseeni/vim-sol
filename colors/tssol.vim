@@ -29,11 +29,11 @@ hi! Typedef guifg=NONE guibg=NONE gui=bold
 hi! Special guifg=#800080 guibg=NONE gui=bold
 hi! SpecialChar guifg=NONE guibg=NONE gui=bold
 hi! Underlined guifg=#800080 guibg=NONE gui=NONE
-hi! Error guifg=#ff0000 guibg=#ffcdcd gui=NONE
+hi! Error guifg=#ff0000 guibg=#ffdbdb gui=NONE
 hi! TODO guifg=#dc143c guibg=#ffef00 gui=BOLD
 hi! NonText guifg=#aaaaaa guibg=NONE gui=NONE
 hi! Visual guifg=#000000 guibg=#aaaaaa gui=NONE
-hi! VisualNOS guifg=#000000 guibg=#ffff4d gui=NONE
+hi! VisualNOS guifg=#000000 guibg=#ffff80 gui=NONE
 hi! ErrorMsg guifg=#ff0000 guibg=#ffff80 gui=NONE
 hi! IncSearch guifg=#000000 guibg=#ffd500 gui=NONE
 hi! Search guifg=#000000 guibg=#ffef00 gui=NONE
@@ -67,8 +67,8 @@ hi! DSMatch guifg=#ffffff guibg=#d70a53 gui=BOLD
 hi! CursorLine guifg=NONE guibg=#fffae3 gui=NONE
 hi! CursorLineNr guifg=#e11896 guibg=NONE gui=NONE
 hi! CursorColumn guifg=NONE guibg=#e5e5e5 gui=NONE
-hi! ColorColumn guifg=NONE guibg=#ffd7c7 gui=NONE
-hi! WildMenu guifg=#eeeeee guibg=#b7410e gui=NONE
+hi! ColorColumn guifg=NONE guibg=#ffdbdb gui=NONE
+hi! WildMenu guifg=#eeeeee guibg=#8b4600 gui=NONE
 hi! SignColumn guifg=NONE guibg=#eeeeee gui=NONE
 hi! CocErrorSign gui=Italic guifg=#ff0000 guibg=#e1e1e1
 hi! CocWarningSign gui=Italic guifg=#ff0000 guibg=#e1e1e1
