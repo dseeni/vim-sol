@@ -89,7 +89,7 @@ hi! Macro guifg=#000080 guibg=NONE gui=NONE
 hi! debugPc guifg=NONE guibg=#ff0000 gui=NONE
 hi! debugBreakpoint guifg=#ff0000 guibg=NONE gui=NONE
 hi! CocErrorSign gui=italic guifg=#ff0000 guibg=#eeeeee
-hi! CocWarningSign gui=italic guifg=#ff0000 guibg=#eeeeee
+hi! CocWarningSign gui=italic guifg=#ff4400 guibg=#eeeeee
 hi! CocInfoSign gui=italic guifg=#0000ff guibg=#eeeeee
 hi! CocHintSign gui=italic guifg=#0000ff guibg=#eeeeee
 hi! CocFadeOut gui=italic guifg=#0000ff guibg=#eeeeee
