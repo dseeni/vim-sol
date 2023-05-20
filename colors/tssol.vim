@@ -1,7 +1,3 @@
-" hi! clear
-" if exists("syntax_on")
-" syntax reset
-" endif
 set background=light
 let g:colors_name = "tssol"
 hi! Normal guifg=#000000 guibg=None gui=NONE
@@ -43,7 +39,7 @@ hi! Search guifg=#000000 guibg=#ffef00 gui=NONE
 hi! MoreMsg guifg=#808080 guibg=NONE gui=NONE
 hi! ModeMsg guifg=#808080 guibg=NONE gui=NONE
 hi! LineNr guifg=#aaaaaa guibg=NONE gui=NONE
-hi! VertSplit guifg=#808080 guibg=#d0d0d0 gui=NONE
+hi! VertSplit guifg=#d0d0d0 guibg=#d0d0d0 gui=NONE
 hi! Folded guifg=#aaaaaa guibg=#eeeeee gui=NONE
 hi! FoldColumn guifg=#aaaaaa guibg=#eeeeee gui=NONE
 hi! DiffAdd guifg=NONE guibg=#dfffdb gui=NONE
@@ -60,10 +56,10 @@ hi! PmenuSbar guifg=#454545 guibg=#aaaaaa gui=NONE
 hi! PmenuThumb guifg=#454545 guibg=#aaaaaa gui=NONE
 hi! MatchParen guifg=#ffffff guibg=#ff4400 gui=NONE
 hi! DSMatch guifg=#ffffff guibg=#dc143c gui=bold
-hi! CursorColumn guifg=NONE guibg=#eeeeee gui=NONE
+" hi! CursorColumn guifg=NONE guibg=#eeeeee gui=NONE
 hi! ColorColumn guifg=NONE guibg=#ffdbdb gui=NONE
 hi! WildMenu guifg=#eeeeee guibg=#aaaaaa gui=NONE
-hi! SignColumn guifg=NONE guibg=#eeeeee gui=NONE
+" hi! SignColumn guifg=NONE guibg=#eeeeee gui=NONE
 hi! Cursor guifg=#000000 guibg=NONE gui=NONE
 hi! SpecialKey guifg=#660099 guibg=NONE gui=bold
 hi! QuickFixLine guifg=NONE guibg=#fffae3 gui=NONE
