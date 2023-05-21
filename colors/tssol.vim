@@ -36,7 +36,7 @@ hi! MoreMsg               guifg=#808080 guibg=NONE    gui=NONE
 hi! ModeMsg               guifg=#808080 guibg=NONE    gui=NONE
 hi! LineNr                guifg=#aaaaaa guibg=NONE    gui=NONE
 hi! VertSplit             guifg=#d0d0d0 guibg=#d0d0d0 gui=NONE
-hi! Folded                guifg=#aaaaaa guibg=#e0e0e0 gui=NONE
+hi! Folded                guifg=#808080 guibg=#e0e0e0 gui=NONE
 hi! FoldColumn            guifg=#aaaaaa guibg=#e0e0e0 gui=NONE
 hi! DiffAdd               guifg=NONE    guibg=#dfffdb gui=NONE
 hi! DiffChange            guifg=NONE    guibg=#e4e4ff gui=NONE
