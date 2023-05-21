@@ -88,82 +88,82 @@ hi! pythonParameters      guifg=#800080 guibg=NONE    gui=NONE
 hi! pythonClassParameters guifg=#800080 guibg=NONE    gui=NONE
 hi! pythonClass           guifg=#000080 guibg=NONE    gui=NONE
 hi! Sneak                 guifg=white   guibg=magenta ctermfg=white ctermbg=magenta
-hi! CocErrorSign   guifg=#ff0000 guibg=#e0e0e0 gui=italic
-hi! CocWarningSign guifg=#ff4400 guibg=#e0e0e0 gui=italic
-hi! CocInfoSign    guifg=#000080 guibg=#ffffff gui=italic
-hi! CocHintSign    guifg=#000080 guibg=#ffffff gui=italic
-hi! CocFadeOut     guifg=#000000 guibg=#ffffff gui=italic
+hi! CocErrorSign   guifg=#ff0000 guibg=#e0e0e0 gui=italic  cterm=NONE
+hi! CocWarningSign guifg=#ff4400 guibg=#e0e0e0 gui=italic  cterm=NONE
+hi! CocInfoSign    guifg=#000080 guibg=#ffffff gui=italic  cterm=NONE
+hi! CocHintSign    guifg=#000080 guibg=#ffffff gui=italic  cterm=NONE
+hi! CocFadeOut     guifg=#000000 guibg=#ffffff gui=italic  cterm=NONE
 hi! CocMarkdownLink guifg=#000000 guibg=#ffffff guisp=NONE gui=NONE cterm=NONE
 
-" hi! link CocSymbolDefault           LineNr
-" hi! link CocInlayHintType           LineNr
-" hi! link CocCodeLens                LineNr
-" hi! link CocErrorHighlight          CocErrorSign
-" hi! link CocErrorVirtualText        CocErrorSign
-" hi! link CocErrorVirtualText        CocErrorSign
-" hi! link CocHintHighlight           CocHintSign
-" hi! link CocHintVirtualText         CocHintSign
-" hi! link CocInfoHighlight           CocInfoSign
-" hi! link CocInfoVirtualText         CocInfoSign
-" hi! link CocMenuSel                 PmenuSel
-" hi! link CocSearch                  Search
-" hi! link CocSelectedText            SpellBad
-" hi! link CocWarningHighlight        CocWarningSign
-" hi! link CocWarningVirtualText      CocWarningSign
-" hi! link CocWarningVitualText       CocWarningSign
-" hi! link CursorColumn               CursorLine
-" hi! link DiagnosticSignError        CocErrorSign
-" hi! link DiagnosticSignHint         CocHintSign
-" hi! link DiagnosticSignInfo         CocInfoSign
-" hi! link DiagnosticSignWarn         CocWarningSign
-" hi! link DiagnosticUnderlineError   CocErrorSign
-" hi! link DiagnosticUnderlineHint    CocWarningSign
-" hi! link DiagnosticUnderlineInfo    CocInfoSign
-" hi! link DiagnosticUnderlineWarn    CocWarningSign
-" hi! link DiagnosticVirtualTextError CocErrorSign
-" hi! link DiagnosticVirtualTextWarn  CocWarningSign
-" hi! link SignifyLineAdd             DiffAdd
-" hi! link SignifyLineChange          DiffChange
-" hi! link SignifyLineDelete          DiffDelete
-" hi! link SignifyLineDeleteFirstLine DiffText
-" hi! link diffAdded                  DiffAdd
-" hi! link diffChanged                DiffChange
-" hi! link diffRemoved                DiffDelete
+hi! link CocSymbolDefault           LineNr
+hi! link CocInlayHintType           LineNr
+hi! link CocCodeLens                LineNr
+hi! link CocErrorHighlight          CocErrorSign
+hi! link CocErrorVirtualText        CocErrorSign
+hi! link CocErrorVirtualText        CocErrorSign
+hi! link CocHintHighlight           CocHintSign
+hi! link CocHintVirtualText         CocHintSign
+hi! link CocInfoHighlight           CocInfoSign
+hi! link CocInfoVirtualText         CocInfoSign
+hi! link CocMenuSel                 PmenuSel
+hi! link CocSearch                  Search
+hi! link CocSelectedText            SpellBad
+hi! link CocWarningHighlight        CocWarningSign
+hi! link CocWarningVirtualText      CocWarningSign
+hi! link CocWarningVitualText       CocWarningSign
+hi! link CursorColumn               CursorLine
+hi! link DiagnosticSignError        CocErrorSign
+hi! link DiagnosticSignHint         CocHintSign
+hi! link DiagnosticSignInfo         CocInfoSign
+hi! link DiagnosticSignWarn         CocWarningSign
+hi! link DiagnosticUnderlineError   CocErrorSign
+hi! link DiagnosticUnderlineHint    CocWarningSign
+hi! link DiagnosticUnderlineInfo    CocInfoSign
+hi! link DiagnosticUnderlineWarn    CocWarningSign
+hi! link DiagnosticVirtualTextError CocErrorSign
+hi! link DiagnosticVirtualTextWarn  CocWarningSign
+hi! link SignifyLineAdd             DiffAdd
+hi! link SignifyLineChange          DiffChange
+hi! link SignifyLineDelete          DiffDelete
+hi! link SignifyLineDeleteFirstLine DiffText
+hi! link diffAdded                  DiffAdd
+hi! link diffChanged                DiffChange
+hi! link diffRemoved                DiffDelete
 
-hi! link CocSymbolText          LineNr
-hi! link CocSymbolUnit          LineNr
-hi! link CocSymbolValue         LineNr
-hi! link CocSymbolKeyword       LineNr
-hi! link CocSymbolSnippet       LineNr
-hi! link CocSymbolColor         LineNr
-hi! link CocSymbolReference     LineNr
-hi! link CocSymbolFolder        LineNr
-hi! link CocSymbolFile          LineNr
-hi! link CocSymbolModule        LineNr
-hi! link CocSymbolNamespace     LineNr
-hi! link CocSymbolPackage       LineNr
-hi! link CocSymbolClass         LineNr
-hi! link CocSymbolMethod        LineNr
-hi! link CocSymbolProperty      LineNr
-hi! link CocSymbolField         LineNr
-hi! link CocSymbolConstructor   LineNr
-hi! link CocSymbolEnum          LineNr
-hi! link CocSymbolInterface     LineNr
-hi! link CocSymbolFunction      LineNr
-hi! link CocSymbolVariable      LineNr
-hi! link CocSymbolConstant      LineNr
-hi! link CocSymbolString        LineNr
-hi! link CocSymbolNumber        LineNr
-hi! link CocSymbolBoolean       LineNr
-hi! link CocSymbolArray         LineNr
-hi! link CocSymbolObject        LineNr
-hi! link CocSymbolKey           LineNr
-hi! link CocSymbolNull          LineNr
-hi! link CocSymbolEnumMember    LineNr
-hi! link CocSymbolStruct        LineNr
-hi! link CocSymbolEvent         LineNr
-hi! link CocSymbolOperator      LineNr
-hi! link CocSymbolTypeParameter LineNr
+" hi! link CocSymbolText          LineNr
+" hi! link CocSymbolUnit          LineNr
+" hi! link CocSymbolValue         LineNr
+" hi! link CocSymbolKeyword       LineNr
+" hi! link CocSymbolSnippet       LineNr
+" hi! link CocSymbolColor         LineNr
+" hi! link CocSymbolReference     LineNr
+" hi! link CocSymbolFolder        LineNr
+" hi! link CocSymbolFile          LineNr
+" hi! link CocSymbolModule        LineNr
+" hi! link CocSymbolNamespace     LineNr
+" hi! link CocSymbolPackage       LineNr
+" hi! link CocSymbolClass         LineNr
+" hi! link CocSymbolMethod        LineNr
+" hi! link CocSymbolProperty      LineNr
+" hi! link CocSymbolField         LineNr
+" hi! link CocSymbolConstructor   LineNr
+" hi! link CocSymbolEnum          LineNr
+" hi! link CocSymbolInterface     LineNr
+" hi! link CocSymbolFunction      LineNr
+" hi! link CocSymbolVariable      LineNr
+" hi! link CocSymbolConstant      LineNr
+" hi! link CocSymbolString        LineNr
+" hi! link CocSymbolNumber        LineNr
+" hi! link CocSymbolBoolean       LineNr
+" hi! link CocSymbolArray         LineNr
+" hi! link CocSymbolObject        LineNr
+" hi! link CocSymbolKey           LineNr
+" hi! link CocSymbolNull          LineNr
+" hi! link CocSymbolEnumMember    LineNr
+" hi! link CocSymbolStruct        LineNr
+" hi! link CocSymbolEvent         LineNr
+" hi! link CocSymbolOperator      LineNr
+" hi! link CocSymbolTypeParameter LineNr
 
 
 
