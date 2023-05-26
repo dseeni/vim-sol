@@ -61,11 +61,11 @@ hi! QuickFixLine          guifg=NONE    guibg=#fffae3 gui=NONE
 hi! Terminal              guifg=#000000 guibg=#ffffff gui=NONE
 hi! healthError           guifg=#ff0000 guibg=#454545 gui=bold
 hi! healthSuccess         guifg=#008080 guibg=#454545 gui=NONE
-hi! healthWarning         guifg=#ff4400 guibg=#454545 gui=bold
+hi! healthWarning         guifg=#ff9d00 guibg=#454545 gui=bold
 hi! Directory             guifg=#008080 guibg=#454545 gui=NONE
 hi! EndOfBuffer           guifg=#aaaaaa guibg=NONE    gui=NONE
 hi! Question              guifg=#000000 guibg=NONE    gui=NONE
-hi! WarningMsg            guifg=#ff4400 guibg=#454545 gui=bold
+hi! WarningMsg            guifg=#ff9d00 guibg=#454545 gui=bold
 hi! TabLine               guifg=#ffffff guibg=#454545 gui=NONE
 hi! TabLineFill           guifg=#454545 guibg=#d0d0d0 gui=NONE
 hi! TabLineSel            guifg=#ffffff guibg=#454545 gui=NONE
@@ -87,13 +87,12 @@ hi! pythonParameters      guifg=#800080 guibg=NONE    gui=NONE
 hi! pythonClassParameters guifg=#800080 guibg=NONE    gui=NONE
 hi! pythonClass           guifg=#000080 guibg=NONE    gui=NONE
 hi! Sneak                 guifg=white   guibg=magenta ctermfg=white ctermbg=magenta
-hi! CocErrorSign   guifg=#ff0000 guibg=#e0e0e0 gui=italic  cterm=NONE
-hi! CocWarningSign guifg=#ff4400 guibg=#e0e0e0 gui=italic  cterm=NONE
-hi! CocInfoSign    guifg=#000080 guibg=#ffffff gui=italic  cterm=NONE
-hi! CocHintSign    guifg=#000080 guibg=#ffffff gui=italic  cterm=NONE
-hi! CocFadeOut     guifg=#000000 guibg=#ffffff gui=italic  cterm=NONE
-hi! CocMarkdownLink guifg=#000000 guibg=#ffffff guisp=NONE gui=NONE cterm=NONE
-
+hi! CocErrorSign    guifg=#ff0000 guibg=NONE gui=italic  cterm=NONE
+hi! CocWarningSign  guifg=#ff9d00 guibg=NONE gui=italic  cterm=NONE
+hi! CocInfoSign     guifg=#000080 guibg=NONE gui=italic  cterm=NONE
+hi! CocHintSign     guifg=#000080 guibg=NONE gui=italic  cterm=NONE
+hi! CocFadeOut      guifg=#000000 guibg=NONE gui=italic  cterm=NONE
+hi! CocMarkdownLink guifg=#000000 guibg=NONE gui=NONE    cterm=NONE guisp=NONE
 hi! link CocSymbolDefault           LineNr
 hi! link CocInlayHintType           LineNr
 hi! link CocCodeLens                LineNr
@@ -163,35 +162,4 @@ hi! link FoldColumn                 Folded
 " hi! link CocSymbolEvent         LineNr
 " hi! link CocSymbolOperator      LineNr
 " hi! link CocSymbolTypeParameter LineNr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
