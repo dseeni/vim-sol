@@ -32,7 +32,7 @@ hi! Visual                guifg=#000000 guibg=#aaaaaa gui=NONE
 hi! ErrorMsg              guifg=#ff0000 guibg=#ffff80 gui=NONE
 hi! IncSearch             guifg=#000000 guibg=#ffd500 gui=NONE
 hi! Search                guifg=#000000 guibg=#ffef00 gui=NONE
-hi! MoreMsg               guifg=#d0d0d0 guibg=NONE    gui=NONE
+hi! MoreMsg               guifg=#808080 guibg=NONE    gui=NONE
 hi! ModeMsg               guifg=#808080 guibg=NONE    gui=NONE
 hi! LineNr                guifg=#aaaaaa guibg=NONE    gui=NONE
 hi! VertSplit             guifg=#d0d0d0 guibg=#d0d0d0 gui=NONE
@@ -42,7 +42,7 @@ hi! DiffChange            guifg=NONE    guibg=#e4e4ff gui=NONE
 hi! DiffDelete            guifg=NONE    guibg=#ffdbdb gui=NONE
 hi! DiffText              guifg=#000000 guibg=#f7dbff gui=NONE
 hi! SpellBad              guifg=#ff0000 guibg=#ffff80 gui=NONE
-hi! SpellCap              guifg=#800080 guibg=#ffff80 gui=NONE
+hi! SpellCap              guifg=#660099 guibg=#ffff80 gui=NONE
 hi! SpellRare             guifg=#dc143c guibg=#ffff80 gui=NONE
 hi! SpellLocal            guifg=#008080 guibg=#ffff80 gui=NONE
 hi! Pmenu                 guifg=#454545 guibg=#aaaaaa gui=NONE
@@ -83,16 +83,17 @@ hi! illuminatedWord       guifg=NONE    guibg=#e4e4ff gui=NONE
 hi! QuickScopePrimary     guifg=#0048ff ctermbg=NONE  guibg=NONE    gui=bold,underline
 hi! QuickScopeSecondary   guifg=#bf00ff ctermbg=NONE  guibg=NONE    gui=bold,underline
 hi! CopilotSuggestion     guifg=#800080 guibg=NONE
-hi! pythonParameters      guifg=#800080 guibg=NONE    gui=NONE
-hi! pythonClassParameters guifg=#800080 guibg=NONE    gui=NONE
+hi! pythonParameters      guifg=#660099 guibg=NONE    gui=NONE
+hi! pythonClassParameters guifg=#660099 guibg=NONE    gui=NONE
 hi! pythonClass           guifg=#000080 guibg=NONE    gui=NONE
 hi! Sneak                 guifg=white   guibg=magenta ctermfg=white ctermbg=magenta
-hi! CocErrorSign    guifg=#ff0000 guibg=NONE gui=italic  cterm=NONE
-hi! CocWarningSign  guifg=#ff9d00 guibg=NONE gui=italic  cterm=NONE
-hi! CocInfoSign     guifg=#000080 guibg=NONE gui=italic  cterm=NONE
-hi! CocHintSign     guifg=#000080 guibg=NONE gui=italic  cterm=NONE
-hi! CocFadeOut      guifg=#000000 guibg=NONE gui=italic  cterm=NONE
-hi! CocMarkdownLink guifg=#000000 guibg=NONE gui=NONE    cterm=NONE guisp=NONE
+hi! CocErrorSign    guifg=#ff0000 guibg=NONE gui=italic cterm=NONE
+hi! CocWarningSign  guifg=#ff8400 guibg=NONE gui=italic cterm=NONE
+hi! CocInfoSign     guifg=#000080 guibg=NONE gui=italic cterm=NONE
+hi! CocHintSign     guifg=#000080 guibg=NONE gui=italic cterm=NONE
+hi! CocFadeOut      guifg=#000000 guibg=NONE gui=italic cterm=NONE
+hi! CocMarkdownLink guifg=#000000 guibg=NONE gui=NONE   cterm=NONE guisp=NONE
+hi! CocInlayHint    guifg=#660099 guibg=NONE gui=italic cterm=NONE
 hi! link CocSymbolDefault           LineNr
 hi! link CocInlayHintType           LineNr
 hi! link CocCodeLens                LineNr
