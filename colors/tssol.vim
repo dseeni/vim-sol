@@ -1,7 +1,7 @@
 set background=light
 let g:colors_name='tssol'
 hi! Normal                guifg=#000000 guibg=NONE    gui=NONE
-hi! StatusLine            guifg=#000000 guibg=NONE    gui=NONE
+" hi! StatusLine            guifg=#000000 guibg=NONE    gui=NONE
 hi! WinSeparator                        guibg=NONE
 hi! Title                 guifg=NONE    guibg=NONE    gui=NONE
 hi! Comment               guifg=#808080 guibg=NONE    gui=italic
@@ -130,7 +130,7 @@ hi! link diffAdded                  DiffAdd
 hi! link diffChanged                DiffChange
 hi! link diffRemoved                DiffDelete
 hi! link FoldColumn                 Folded
-hi! link StatusLineNC               StatusLine
+" hi! link StatusLineNC               StatusLine
 " hi! link CocSymbolText          LineNr
 " hi! link CocSymbolUnit          LineNr
 " hi! link CocSymbolValue         LineNr
