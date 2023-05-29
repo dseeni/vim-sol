@@ -129,6 +129,7 @@ hi! link diffAdded                  DiffAdd
 hi! link diffChanged                DiffChange
 hi! link diffRemoved                DiffDelete
 hi! link FoldColumn                 Folded
+hi! link StatusLineNC               StatusLine
 " hi! link CocSymbolText          LineNr
 " hi! link CocSymbolUnit          LineNr
 " hi! link CocSymbolValue         LineNr
