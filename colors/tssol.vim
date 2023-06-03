@@ -36,7 +36,6 @@ hi! Search                guifg=#000000 guibg=#ffef00 gui=NONE
 hi! MoreMsg               guifg=#808080 guibg=NONE    gui=NONE
 hi! ModeMsg               guifg=#808080 guibg=NONE    gui=NONE
 hi! LineNr                guifg=#aaaaaa guibg=NONE    gui=NONE
-hi! VertSplit             guifg=#d0d0d0 guibg=#d0d0d0 gui=NONE
 hi! Folded                guifg=#808080 guibg=#e0e0e0 gui=NONE
 hi! DiffAdd               guifg=NONE    guibg=#dfffdb gui=NONE
 hi! DiffChange            guifg=NONE    guibg=#e4e4ff gui=NONE
@@ -67,9 +66,6 @@ hi! Directory             guifg=#008080 guibg=#454545 gui=NONE
 hi! EndOfBuffer           guifg=#aaaaaa guibg=NONE    gui=NONE
 hi! Question              guifg=#000000 guibg=NONE    gui=NONE
 hi! WarningMsg            guifg=#ff9d00 guibg=#454545 gui=bold
-hi! TabLine               guifg=#ffffff guibg=#454545 gui=NONE
-hi! TabLineFill           guifg=#454545 guibg=#d0d0d0 gui=NONE
-hi! TabLineSel            guifg=#ffffff guibg=#454545 gui=NONE
 hi! Delimeter             guifg=#660099 guibg=NONE    gui=bold
 hi! Float                 guifg=#660099 guibg=NONE    gui=bold
 hi! Function              guifg=#000080 guibg=NONE    gui=bold
