@@ -2,7 +2,7 @@ set background=light
 let g:colors_name='tssol'
 hi! Normal                guifg=#000000 guibg=NONE    gui=NONE
 hi! StatusLine            guifg=#000000 guibg=NONE    gui=NONE
-hi! WinSeparator                        guibg=NONE
+hi! WinSeparator          guifg=#000000 guibg=NONE    gui=NONE
 hi! Title                 guifg=NONE    guibg=NONE    gui=NONE
 hi! Comment               guifg=#808080 guibg=NONE    gui=italic
 hi! Constant              guifg=#000080 guibg=NONE    gui=bold
@@ -58,7 +58,7 @@ hi! WildMenu              guifg=#e0e0e0 guibg=#aaaaaa gui=NONE
 hi! SignColumn            guifg=NONE    guibg=#e0e0e0 gui=NONE
 hi! Cursor                guifg=#000000 guibg=NONE    gui=NONE
 hi! SpecialKey            guifg=#660099 guibg=NONE    gui=bold
-hi! QuickFixLine          guifg=NONE    guibg=#fffae3 gui=NONE
+hi! QuickFixLine          guifg=NONE    guibg=#e0e0e0 gui=NONE
 hi! Terminal              guifg=#000000 guibg=#ffffff gui=NONE
 hi! healthError           guifg=#ff0000 guibg=#454545 gui=bold
 hi! healthSuccess         guifg=#008080 guibg=#454545 gui=NONE
@@ -67,9 +67,6 @@ hi! Directory             guifg=#008080 guibg=#454545 gui=NONE
 hi! EndOfBuffer           guifg=#aaaaaa guibg=NONE    gui=NONE
 hi! Question              guifg=#000000 guibg=NONE    gui=NONE
 hi! WarningMsg            guifg=#ff9d00 guibg=#454545 gui=bold
-hi! TabLine               guifg=#ffffff guibg=#454545 gui=NONE
-hi! TabLineFill           guifg=#454545 guibg=#d0d0d0 gui=NONE
-hi! TabLineSel            guifg=#ffffff guibg=#454545 gui=NONE
 hi! Delimeter             guifg=#660099 guibg=NONE    gui=bold
 hi! Float                 guifg=#660099 guibg=NONE    gui=bold
 hi! Function              guifg=#000080 guibg=NONE    gui=bold
@@ -165,4 +162,7 @@ hi! link FoldColumn                 Folded
 " hi! link CocSymbolEvent         LineNr
 " hi! link CocSymbolOperator      LineNr
 " hi! link CocSymbolTypeParameter LineNr
-
+" hi! VertSplit             guifg=#d0d0d0 guibg=#d0d0d0 gui=NONE
+" hi! TabLine               guifg=#ffffff guibg=#454545 gui=NONE
+" hi! TabLineFill           guifg=#454545 guibg=#d0d0d0 gui=NONE
+" hi! TabLineSel            guifg=#ffffff guibg=#454545 gui=NONE
