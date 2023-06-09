@@ -167,34 +167,3 @@ hi! link FoldColumn                 Folded
 " hi! TabLineSel            guifg=#ffffff guibg=#454545 gui=NONE
 " hi! WinSeparator          guifg=#000000 guibg=NONE    gui=NONE
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
