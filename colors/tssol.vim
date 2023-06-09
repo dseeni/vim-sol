@@ -77,20 +77,20 @@ hi! Macro                 guifg=#000080 guibg=NONE    gui=NONE
 hi! debugPc               guifg=NONE    guibg=#ff0000 gui=NONE
 hi! debugBreakpoint       guifg=#ff0000 guibg=NONE    gui=NONE
 hi! illuminatedWord       guifg=NONE    guibg=#e4e4ff gui=NONE
-hi! QuickScopePrimary     guifg=#0048ff ctermbg=NONE  guibg=NONE    gui=bold
-hi! QuickScopeSecondary   guifg=#bf00ff ctermbg=NONE  guibg=NONE    gui=bold
+hi! QuickScopePrimary     guifg=#0048ff guibg=NONE    gui=bold
+hi! QuickScopeSecondary   guifg=#bf00ff guibg=NONE    gui=bold
 hi! CopilotSuggestion     guifg=#800080 guibg=NONE
 hi! pythonParameters      guifg=#660099 guibg=NONE    gui=NONE
 hi! pythonClassParameters guifg=#660099 guibg=NONE    gui=NONE
 hi! pythonClass           guifg=#000080 guibg=NONE    gui=NONE
 hi! Sneak                 guifg=#ffffff guibg=#0048ff
-hi! CocErrorSign    guifg=#ff0000 guibg=NONE gui=italic cterm=NONE
-hi! CocWarningSign  guifg=#ff8400 guibg=NONE gui=italic cterm=NONE
-hi! CocInfoSign     guifg=#000080 guibg=NONE gui=italic cterm=NONE
-hi! CocHintSign     guifg=#000080 guibg=NONE gui=italic cterm=NONE
-hi! CocFadeOut      guifg=#000000 guibg=NONE gui=italic cterm=NONE
-hi! CocMarkdownLink guifg=#000000 guibg=NONE gui=NONE   cterm=NONE guisp=NONE
-hi! CocInlayHint    guifg=#660099 guibg=NONE gui=italic cterm=NONE
+hi! CocErrorSign    guifg=#ff0000 guibg=NONE gui=italic
+hi! CocWarningSign  guifg=#ff8400 guibg=NONE gui=italic
+hi! CocInfoSign     guifg=#000080 guibg=NONE gui=italic
+hi! CocHintSign     guifg=#000080 guibg=NONE gui=italic
+hi! CocFadeOut      guifg=#000000 guibg=NONE gui=italic
+hi! CocMarkdownLink guifg=#000000 guibg=NONE gui=NONE
+hi! CocInlayHint    guifg=#660099 guibg=NONE gui=italic
 hi! link CocSymbolDefault           LineNr
 hi! link CocInlayHintType           LineNr
 hi! link CocCodeLens                LineNr
@@ -126,35 +126,4 @@ hi! link diffAdded                  DiffAdd
 hi! link diffChanged                DiffChange
 hi! link diffRemoved                DiffDelete
 hi! link FoldColumn                 Folded
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
