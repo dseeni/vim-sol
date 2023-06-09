@@ -26,7 +26,7 @@ hi! Typedef               guifg=NONE    guibg=NONE    gui=bold
 hi! Special               guifg=#660099 guibg=NONE    gui=bold,italic
 hi! Underlined            guifg=#660099 guibg=NONE    gui=NONE
 hi! Error                 guifg=#ff0000 guibg=#ffdbdb gui=NONE
-hi! TODO                  guifg=#dc143c guibg=#ffef00 gui=bold
+hi! TODO                  guifg=#dc143c guibg=#ffef00 gui=bold,italic
 hi! NonText               guifg=#aaaaaa guibg=NONE    gui=NONE
 hi! Visual                guifg=#000000 guibg=#aaaaaa gui=NONE
 hi! ErrorMsg              guifg=#ff0000 guibg=#ffff80 gui=NONE
@@ -35,6 +35,8 @@ hi! Search                guifg=#000000 guibg=#ffef00 gui=NONE
 hi! MoreMsg               guifg=#808080 guibg=NONE    gui=NONE
 hi! ModeMsg               guifg=#808080 guibg=NONE    gui=NONE
 hi! LineNr                guifg=#aaaaaa guibg=NONE    gui=NONE
+hi! CursorLine            guifg=NONE    guibg=#efefef gui=NONE
+hi! CursorLineNr          guifg=#e11896 guibg=NONE    gui=NONE
 hi! Folded                guifg=#808080 guibg=#e4e4e4 gui=NONE
 hi! DiffAdd               guifg=NONE    guibg=#dfffdb gui=NONE
 hi! DiffChange            guifg=NONE    guibg=#e4e4ff gui=NONE
@@ -50,7 +52,6 @@ hi! PmenuSbar             guifg=#454545 guibg=#aaaaaa gui=NONE
 hi! PmenuThumb            guifg=#454545 guibg=#aaaaaa gui=NONE
 hi! MatchParen            guifg=#ffffff guibg=#ff4400 gui=NONE
 hi! DSMatch               guifg=#ffffff guibg=#dc143c gui=bold
-hi! CursorLine            guifg=NONE    guibg=#e4e4e4 gui=NONE
 hi! ColorColumn           guifg=NONE    guibg=#ffdbdb gui=NONE
 hi! WildMenu              guifg=#e4e4e4 guibg=#aaaaaa gui=NONE
 hi! SignColumn            guifg=NONE    guibg=#e4e4e4 gui=NONE
@@ -165,4 +166,35 @@ hi! link FoldColumn                 Folded
 " hi! TabLineFill           guifg=#454545 guibg=#d0d0d0 gui=NONE
 " hi! TabLineSel            guifg=#ffffff guibg=#454545 gui=NONE
 " hi! WinSeparator          guifg=#000000 guibg=NONE    gui=NONE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
