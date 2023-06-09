@@ -1,21 +1,22 @@
+hi! clear
 set background=light
 let g:colors_name='tssol'
-hi! Normal                guifg=#000000 guibg=NONE    gui=NONE
+hi! Normal                guifg=#000000 guibg=NONE    gui=Italic
 hi! StatusLine            guifg=#000000 guibg=NONE    gui=NONE
 hi! WinSeparator                        guibg=NONE
 hi! Title                 guifg=NONE    guibg=NONE    gui=NONE
 hi! Comment               guifg=#808080 guibg=NONE    gui=italic
 hi! Constant              guifg=#000080 guibg=NONE    gui=bold
-hi! String                guifg=#008080 guibg=NONE    gui=bold
+hi! String                guifg=#008080 guibg=NONE    gui=bold,italic
 hi! Character             guifg=#660099 guibg=NONE    gui=bold
-hi! Number                guifg=#0000ff guibg=NONE    gui=NONE
+hi! Number                guifg=#0000ff guibg=NONE    gui=italic
 hi! Boolean               guifg=#000080 guibg=NONE    gui=bold
-hi! Identifier            guifg=#000000 guibg=NONE    gui=NONE
+hi! Identifier            guifg=#000000 guibg=NONE    gui=italic
 hi! Statement             guifg=#000080 guibg=NONE    gui=bold
 hi! Conditional           guifg=#000080 guibg=NONE    gui=bold
-hi! Operator              guifg=#000000 guibg=NONE    gui=NONE
+hi! Operator              guifg=#000000 guibg=NONE    gui=italic
 hi! Exception             guifg=#000080 guibg=NONE    gui=bold
-hi! PreProc               guifg=#ff0000 guibg=NONE    gui=NONE
+hi! PreProc               guifg=#ff0000 guibg=NONE    gui=italic
 hi! Include               guifg=NONE    guibg=NONE    gui=bold
 hi! Define                guifg=NONE    guibg=NONE    gui=bold
 hi! PreCondit             guifg=NONE    guibg=NONE    gui=bold
@@ -23,8 +24,7 @@ hi! Type                  guifg=#839a00 guibg=NONE    gui=bold
 hi! StorageClass          guifg=NONE    guibg=NONE    gui=bold
 hi! Structure             guifg=NONE    guibg=NONE    gui=bold
 hi! Typedef               guifg=NONE    guibg=NONE    gui=bold
-hi! Special               guifg=#660099 guibg=NONE    gui=bold
-hi! SpecialChar           guifg=NONE    guibg=NONE    gui=bold
+hi! Special               guifg=#660099 guibg=NONE    gui=bold,italic
 hi! Underlined            guifg=#660099 guibg=NONE    gui=NONE
 hi! Error                 guifg=#ff0000 guibg=#ffdbdb gui=NONE
 hi! TODO                  guifg=#dc143c guibg=#ffef00 gui=bold
@@ -68,8 +68,8 @@ hi! Question              guifg=#000000 guibg=NONE    gui=NONE
 hi! WarningMsg            guifg=#ff9d00 guibg=#454545 gui=bold
 hi! Delimeter             guifg=#660099 guibg=NONE    gui=bold
 hi! Float                 guifg=#660099 guibg=NONE    gui=bold
-hi! Function              guifg=#000080 guibg=NONE    gui=bold
-hi! Keyword               guifg=#000080 guibg=NONE    gui=bold
+hi! Function              guifg=#000080 guibg=NONE    gui=bold,italic
+hi! Keyword               guifg=#000080 guibg=NONE    gui=italic
 hi! Label                 guifg=#000080 guibg=NONE    gui=bold
 hi! Repeat                guifg=#000080 guibg=NONE    gui=bold
 hi! Tag                   guifg=#dc143c guibg=#ffef00 gui=bold
