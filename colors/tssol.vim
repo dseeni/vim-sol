@@ -1,4 +1,3 @@
-hi! clear
 set background=light
 let g:colors_name='tssol'
 hi! Normal                guifg=#000000 guibg=NONE    gui=Italic
@@ -166,3 +165,4 @@ hi! link FoldColumn                 Folded
 " hi! TabLineFill           guifg=#454545 guibg=#d0d0d0 gui=NONE
 " hi! TabLineSel            guifg=#ffffff guibg=#454545 gui=NONE
 " hi! WinSeparator          guifg=#000000 guibg=NONE    gui=NONE
+
