@@ -77,13 +77,13 @@ hi! Macro                 guifg=#000080 guibg=NONE    gui=NONE
 hi! debugPc               guifg=NONE    guibg=#ff0000 gui=NONE
 hi! debugBreakpoint       guifg=#ff0000 guibg=NONE    gui=NONE
 hi! illuminatedWord       guifg=NONE    guibg=#e4e4ff gui=NONE
-hi! QuickScopePrimary     guifg=#0048ff ctermbg=NONE  guibg=NONE    gui=bold,underline
-hi! QuickScopeSecondary   guifg=#bf00ff ctermbg=NONE  guibg=NONE    gui=bold,underline
+hi! QuickScopePrimary     guifg=#0048ff ctermbg=NONE  guibg=NONE    gui=bold
+hi! QuickScopeSecondary   guifg=#bf00ff ctermbg=NONE  guibg=NONE    gui=bold
 hi! CopilotSuggestion     guifg=#800080 guibg=NONE
 hi! pythonParameters      guifg=#660099 guibg=NONE    gui=NONE
 hi! pythonClassParameters guifg=#660099 guibg=NONE    gui=NONE
 hi! pythonClass           guifg=#000080 guibg=NONE    gui=NONE
-hi! Sneak                 guifg=white   guibg=magenta ctermfg=white ctermbg=magenta
+hi! Sneak                 guifg=#ffffff guibg=#0048ff
 hi! CocErrorSign    guifg=#ff0000 guibg=NONE gui=italic cterm=NONE
 hi! CocWarningSign  guifg=#ff8400 guibg=NONE gui=italic cterm=NONE
 hi! CocInfoSign     guifg=#000080 guibg=NONE gui=italic cterm=NONE
@@ -126,44 +126,35 @@ hi! link diffAdded                  DiffAdd
 hi! link diffChanged                DiffChange
 hi! link diffRemoved                DiffDelete
 hi! link FoldColumn                 Folded
-" hi! link StatusLineNC               StatusLine
-" hi! link CocSymbolText          LineNr
-" hi! link CocSymbolUnit          LineNr
-" hi! link CocSymbolValue         LineNr
-" hi! link CocSymbolKeyword       LineNr
-" hi! link CocSymbolSnippet       LineNr
-" hi! link CocSymbolColor         LineNr
-" hi! link CocSymbolReference     LineNr
-" hi! link CocSymbolFolder        LineNr
-" hi! link CocSymbolFile          LineNr
-" hi! link CocSymbolModule        LineNr
-" hi! link CocSymbolNamespace     LineNr
-" hi! link CocSymbolPackage       LineNr
-" hi! link CocSymbolClass         LineNr
-" hi! link CocSymbolMethod        LineNr
-" hi! link CocSymbolProperty      LineNr
-" hi! link CocSymbolField         LineNr
-" hi! link CocSymbolConstructor   LineNr
-" hi! link CocSymbolEnum          LineNr
-" hi! link CocSymbolInterface     LineNr
-" hi! link CocSymbolFunction      LineNr
-" hi! link CocSymbolVariable      LineNr
-" hi! link CocSymbolConstant      LineNr
-" hi! link CocSymbolString        LineNr
-" hi! link CocSymbolNumber        LineNr
-" hi! link CocSymbolBoolean       LineNr
-" hi! link CocSymbolArray         LineNr
-" hi! link CocSymbolObject        LineNr
-" hi! link CocSymbolKey           LineNr
-" hi! link CocSymbolNull          LineNr
-" hi! link CocSymbolEnumMember    LineNr
-" hi! link CocSymbolStruct        LineNr
-" hi! link CocSymbolEvent         LineNr
-" hi! link CocSymbolOperator      LineNr
-" hi! link CocSymbolTypeParameter LineNr
-" hi! VertSplit             guifg=#d0d0d0 guibg=#d0d0d0 gui=NONE
-" hi! TabLine               guifg=#ffffff guibg=#454545 gui=NONE
-" hi! TabLineFill           guifg=#454545 guibg=#d0d0d0 gui=NONE
-" hi! TabLineSel            guifg=#ffffff guibg=#454545 gui=NONE
-" hi! WinSeparator          guifg=#000000 guibg=NONE    gui=NONE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
