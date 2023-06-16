@@ -1,6 +1,6 @@
 set background=light
 let g:colors_name='tssol'
-hi! Normal                guifg=#000000 guibg=NONE    gui=Italic
+hi! Normal                guifg=#000000 guibg=NONE    gui=italic
 hi! StatusLine            guifg=#000000 guibg=NONE    gui=NONE
 hi! WinSeparator                        guibg=NONE
 hi! Title                 guifg=NONE    guibg=NONE    gui=NONE
@@ -68,8 +68,8 @@ hi! Question              guifg=#000000 guibg=NONE    gui=NONE
 hi! WarningMsg            guifg=#ff9d00 guibg=#454545 gui=bold
 hi! Delimeter             guifg=#660099 guibg=NONE    gui=bold
 hi! Float                 guifg=#660099 guibg=NONE    gui=bold
-hi! Function              guifg=#000080 guibg=NONE    gui=bold,italic
-hi! Keyword               guifg=#000080 guibg=NONE    gui=italic
+hi! Function              guifg=#000080 guibg=NONE    gui=italic
+hi! Keyword               guifg=#000080 guibg=NONE    gui=italic,bold
 hi! Label                 guifg=#000080 guibg=NONE    gui=bold
 hi! Repeat                guifg=#000080 guibg=NONE    gui=bold
 hi! Tag                   guifg=#dc143c guibg=#ffef00 gui=bold
