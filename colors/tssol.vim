@@ -68,7 +68,7 @@ hi! Question              guifg=#000000 guibg=NONE    gui=NONE
 hi! WarningMsg            guifg=#ff9d00 guibg=#454545 gui=bold
 hi! Delimeter             guifg=#660099 guibg=NONE    gui=bold
 hi! Float                 guifg=#660099 guibg=NONE    gui=bold
-hi! Function              guifg=#000080 guibg=NONE    gui=italic
+hi! Function              guifg=#000080 guibg=NONE    gui=italic,bold
 hi! Keyword               guifg=#000080 guibg=NONE    gui=italic,bold
 hi! Label                 guifg=#000080 guibg=NONE    gui=bold
 hi! Repeat                guifg=#000080 guibg=NONE    gui=bold
