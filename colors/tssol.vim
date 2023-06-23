@@ -90,7 +90,8 @@ hi! CocInfoSign     guifg=#000080 guibg=NONE gui=italic
 hi! CocHintSign     guifg=#000080 guibg=NONE gui=italic
 hi! CocFadeOut      guifg=#000000 guibg=NONE gui=italic
 hi! CocMarkdownLink guifg=#000000 guibg=NONE gui=NONE
-hi! CocInlayHint    guifg=#660099 guibg=NONE gui=italic
+" hi! CocInlayHint    guifg=#660099 guibg=NONE gui=italic
+hi! CocInlayHint    guifg=#9b79ab guibg=NONE gui=italic
 hi! link CocSymbolDefault           LineNr
 hi! link CocInlayHintType           LineNr
 hi! link CocCodeLens                LineNr
