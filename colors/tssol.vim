@@ -36,7 +36,7 @@ hi! MoreMsg               guifg=#808080 guibg=NONE    gui=NONE
 hi! ModeMsg               guifg=#808080 guibg=NONE    gui=NONE
 hi! LineNr                guifg=#aaaaaa guibg=NONE    gui=NONE
 hi! CursorLine            guifg=NONE    guibg=#efefef gui=NONE
-hi! CursorLineNr          guifg=#e11896 guibg=NONE    gui=NONE
+hi! CursorLineNr          guifg=#e11896 guibg=#efefef gui=NONE
 hi! Folded                guifg=#808080 guibg=#e4e4e4 gui=NONE
 hi! DiffAdd               guifg=NONE    guibg=#dfffdb gui=NONE
 hi! DiffChange            guifg=NONE    guibg=#e4e4ff gui=NONE
@@ -83,14 +83,14 @@ hi! CopilotSuggestion     guifg=#800080 guibg=NONE
 hi! pythonParameters      guifg=#660099 guibg=NONE    gui=NONE
 hi! pythonClassParameters guifg=#660099 guibg=NONE    gui=NONE
 hi! pythonClass           guifg=#000080 guibg=NONE    gui=NONE
-hi! Sneak                 guifg=#ffffff guibg=#0048ff
+" hi! Sneak                 guifg=#ffffff guibg=#0048ff
+hi! link Sneak              Search
 hi! CocErrorSign    guifg=#ff0000 guibg=NONE gui=italic
 hi! CocWarningSign  guifg=#ff8400 guibg=NONE gui=italic
 hi! CocInfoSign     guifg=#000080 guibg=NONE gui=italic
 hi! CocHintSign     guifg=#000080 guibg=NONE gui=italic
 hi! CocFadeOut      guifg=#000000 guibg=NONE gui=italic
 hi! CocMarkdownLink guifg=#000000 guibg=NONE gui=NONE
-" hi! CocInlayHint    guifg=#660099 guibg=NONE gui=italic
 hi! CocInlayHint    guifg=#9b79ab guibg=NONE gui=italic
 hi! link CocSymbolDefault           LineNr
 hi! link CocInlayHintType           LineNr
