@@ -36,6 +36,7 @@ hi! MoreMsg               guifg=#808080 guibg=NONE    gui=NONE
 hi! ModeMsg               guifg=#808080 guibg=NONE    gui=NONE
 hi! LineNr                guifg=#aaaaaa guibg=NONE    gui=NONE
 hi! CursorLine            guifg=NONE    guibg=#f7f7f7 gui=NONE
+hi! link CursorLineNr LineNr
 hi! Folded                guifg=#808080 guibg=#e4e4e4 gui=NONE
 hi! DiffAdd               guifg=NONE    guibg=#dfffdb gui=NONE
 hi! DiffChange            guifg=NONE    guibg=#e4e4ff gui=NONE
@@ -87,7 +88,6 @@ hi! CocFadeOut      guifg=#000000 guibg=NONE gui=italic
 hi! CocMarkdownLink guifg=#000000 guibg=NONE gui=NONE
 hi! CocInlayHint    guifg=#9b79ab guibg=NONE gui=italic
 hi! link Cursor                     StatusLine
-hi! link CursorLineNr CursorLine
 hi! link CursorColumn               CursorLine
 hi! link FoldColumn                 Folded
 hi! link CocSymbolDefault           LineNr
