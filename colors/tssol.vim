@@ -36,7 +36,7 @@ hi! MoreMsg               guifg=#808080 guibg=NONE    gui=NONE
 hi! ModeMsg               guifg=#808080 guibg=NONE    gui=NONE
 hi! LineNr                guifg=#aaaaaa guibg=NONE    gui=NONE
 hi! CursorLine            guifg=NONE    guibg=#f7f7f7 gui=NONE
-hi! CursorLineNr          guifg=NONE    guibg=NONE    gui=NONE
+hi! CursorLineNr          guifg=NONE    guibg=#f7f7f7 gui=NONE
 hi! Folded                guifg=#808080 guibg=#e4e4e4 gui=NONE
 hi! DiffAdd               guifg=NONE    guibg=#dfffdb gui=NONE
 hi! DiffChange            guifg=NONE    guibg=#e4e4ff gui=NONE
