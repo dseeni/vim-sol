@@ -35,8 +35,8 @@ hi! Search                guifg=#000000 guibg=#ffef00 gui=NONE
 hi! MoreMsg               guifg=#808080 guibg=NONE    gui=NONE
 hi! ModeMsg               guifg=#808080 guibg=NONE    gui=NONE
 hi! LineNr                guifg=#aaaaaa guibg=NONE    gui=NONE
-hi! CursorLine            guifg=NONE    guibg=#efefef gui=NONE
-hi! CursorLineNr          guifg=#e11896 guibg=#efefef gui=NONE
+hi! CursorLine            guifg=NONE    guibg=#f7f7f7 gui=NONE
+hi! CursorLineNr          guifg=#e11896 guibg=#f7f7f7 gui=NONE
 hi! Folded                guifg=#808080 guibg=#e4e4e4 gui=NONE
 hi! DiffAdd               guifg=NONE    guibg=#dfffdb gui=NONE
 hi! DiffChange            guifg=NONE    guibg=#e4e4ff gui=NONE
@@ -55,7 +55,6 @@ hi! DSMatch               guifg=#ffffff guibg=#dc143c gui=bold
 hi! ColorColumn           guifg=NONE    guibg=#ffdbdb gui=NONE
 hi! WildMenu              guifg=#e4e4e4 guibg=#aaaaaa gui=NONE
 hi! SignColumn            guifg=NONE    guibg=#e4e4e4 gui=NONE
-hi! Cursor                guifg=#000000 guibg=NONE    gui=NONE
 hi! SpecialKey            guifg=#660099 guibg=NONE    gui=bold
 hi! QuickFixLine          guifg=NONE    guibg=#e4e4e4 gui=NONE
 hi! Terminal              guifg=#000000 guibg=#ffffff gui=NONE
@@ -68,23 +67,19 @@ hi! Question              guifg=#000000 guibg=NONE    gui=NONE
 hi! WarningMsg            guifg=#ff9d00 guibg=#454545 gui=bold
 hi! Delimeter             guifg=#660099 guibg=NONE    gui=bold
 hi! Float                 guifg=#660099 guibg=NONE    gui=bold
-hi! Function              guifg=#000080 guibg=NONE    gui=italic,bold
-hi! Keyword               guifg=#000080 guibg=NONE    gui=italic,bold
+hi! Function              guifg=#000080 guibg=NONE    gui=bold,italic
+hi! Keyword               guifg=#000080 guibg=NONE    gui=bold,italic
 hi! Label                 guifg=#000080 guibg=NONE    gui=bold
 hi! Repeat                guifg=#000080 guibg=NONE    gui=bold
 hi! Tag                   guifg=#dc143c guibg=#ffef00 gui=bold
 hi! Macro                 guifg=#000080 guibg=NONE    gui=NONE
 hi! debugPc               guifg=NONE    guibg=#ff0000 gui=NONE
 hi! debugBreakpoint       guifg=#ff0000 guibg=NONE    gui=NONE
+hi! Sneak                 guifg=#ffffff guibg=#0048ff gui=NONE
+hi! QuickScopePrimary     guifg=#0048ff guibg=NONE    gui=bold,italic
+hi! QuickScopeSecondary   guifg=#bf00ff guibg=NONE    gui=bold,italic
+hi! CopilotSuggestion     guifg=#800080 guibg=NONE    gui=NONE
 hi! illuminatedWord       guifg=NONE    guibg=#e4e4ff gui=NONE
-hi! QuickScopePrimary     guifg=#0048ff guibg=NONE    gui=bold
-hi! QuickScopeSecondary   guifg=#bf00ff guibg=NONE    gui=bold
-hi! CopilotSuggestion     guifg=#800080 guibg=NONE
-hi! pythonParameters      guifg=#660099 guibg=NONE    gui=NONE
-hi! pythonClassParameters guifg=#660099 guibg=NONE    gui=NONE
-hi! pythonClass           guifg=#000080 guibg=NONE    gui=NONE
-" hi! Sneak                 guifg=#ffffff guibg=#0048ff
-hi! link Sneak              Search
 hi! CocErrorSign    guifg=#ff0000 guibg=NONE gui=italic
 hi! CocWarningSign  guifg=#ff8400 guibg=NONE gui=italic
 hi! CocInfoSign     guifg=#000080 guibg=NONE gui=italic
@@ -92,39 +87,35 @@ hi! CocHintSign     guifg=#000080 guibg=NONE gui=italic
 hi! CocFadeOut      guifg=#000000 guibg=NONE gui=italic
 hi! CocMarkdownLink guifg=#000000 guibg=NONE gui=NONE
 hi! CocInlayHint    guifg=#9b79ab guibg=NONE gui=italic
+hi! link Cursor                     StatusLine
+hi! link CursorColumn               CursorLine
+hi! link FoldColumn                 Folded
 hi! link CocSymbolDefault           LineNr
 hi! link CocInlayHintType           LineNr
 hi! link CocCodeLens                LineNr
-hi! link CocErrorHighlight          CocErrorSign
-hi! link CocErrorVirtualText        CocErrorSign
-hi! link CocErrorVirtualText        CocErrorSign
-hi! link CocHintHighlight           CocHintSign
-hi! link CocHintVirtualText         CocHintSign
-hi! link CocInfoHighlight           CocInfoSign
-hi! link CocInfoVirtualText         CocInfoSign
 hi! link CocMenuSel                 PmenuSel
 hi! link CocSearch                  Search
 hi! link CocSelectedText            SpellBad
-hi! link CocWarningHighlight        CocWarningSign
-hi! link CocWarningVirtualText      CocWarningSign
-hi! link CocWarningVitualText       CocWarningSign
-hi! link CursorColumn               CursorLine
-hi! link DiagnosticSignError        CocErrorSign
-hi! link DiagnosticSignHint         CocHintSign
-hi! link DiagnosticSignInfo         CocInfoSign
-hi! link DiagnosticSignWarn         CocWarningSign
-hi! link DiagnosticUnderlineError   CocErrorSign
-hi! link DiagnosticUnderlineHint    CocWarningSign
-hi! link DiagnosticUnderlineInfo    CocInfoSign
-hi! link DiagnosticUnderlineWarn    CocWarningSign
+hi! link CocErrorHighlight          CocErrorSign
+hi! link CocErrorVirtualText        CocErrorSign
 hi! link DiagnosticVirtualTextError CocErrorSign
-hi! link DiagnosticVirtualTextWarn  CocWarningSign
+hi! link DiagnosticSignError        CocErrorSign
+hi! link DiagnosticUnderlineError   CocErrorSign
+hi! link CocWarningVirtualText      CocWarningSign
+hi! link CocWarningHighlight        CocWarningSign
+hi! link CocInfoHighlight           CocInfoSign
+hi! link CocInfoVirtualText         CocInfoSign
+hi! link DiagnosticSignInfo         CocInfoSign
+hi! link DiagnosticUnderlineInfo    CocInfoSign
+hi! link CocHintHighlight           CocHintSign
+hi! link CocHintVirtualText         CocHintSign
+hi! link DiagnosticSignHint         CocHintSign
 hi! link SignifyLineAdd             DiffAdd
 hi! link SignifyLineChange          DiffChange
 hi! link SignifyLineDelete          DiffDelete
 hi! link SignifyLineDeleteFirstLine DiffText
-hi! link diffAdded                  DiffAdd
-hi! link diffChanged                DiffChange
-hi! link diffRemoved                DiffDelete
-hi! link FoldColumn                 Folded
+hi! link DiagnosticVirtualTextWarn  CocWarningSign
+hi! link DiagnosticSignWarn         CocWarningSign
+hi! link DiagnosticUnderlineWarn    CocWarningSign
+hi! link DiagnosticUnderlineHint    CocWarningSign
 
