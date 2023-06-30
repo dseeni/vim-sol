@@ -87,8 +87,7 @@ hi! CocFadeOut      guifg=#000000 guibg=NONE gui=italic
 hi! CocMarkdownLink guifg=#000000 guibg=NONE gui=NONE
 hi! CocInlayHint    guifg=#9b79ab guibg=NONE gui=italic
 hi! link Cursor                     StatusLine
-" hi! link CursorLineNr               CursorLine
-hi! link CursorLineNr               LineNr
+hi! link CursorLineNr               CursorLine
 hi! link CursorColumn               CursorLine
 hi! link FoldColumn                 Folded
 hi! link CocSymbolDefault           LineNr
