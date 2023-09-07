@@ -75,8 +75,8 @@ hi! Macro                 guifg=#000080 guibg=NONE    gui=NONE
 hi! debugPc               guifg=NONE    guibg=#ff0000 gui=NONE
 hi! debugBreakpoint       guifg=#ff0000 guibg=NONE    gui=NONE
 hi! Sneak                 guifg=#ffffff guibg=#0048ff gui=NONE
-hi! QuickScopePrimary     guifg=#0048ff guibg=NONE    gui=bold,italic
-hi! QuickScopeSecondary   guifg=#bf00ff guibg=NONE    gui=bold,italic
+hi! QuickScopePrimary     guifg=#0048ff guibg=NONE    gui=bold
+hi! QuickScopeSecondary   guifg=#bf00ff guibg=NONE    gui=bold
 hi! CopilotSuggestion     guifg=#800080 guibg=NONE    gui=NONE
 hi! illuminatedWord       guifg=NONE    guibg=#e4e4ff gui=NONE
 hi! CocErrorSign    guifg=#ff0000 guibg=NONE gui=italic
