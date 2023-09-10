@@ -1,7 +1,7 @@
 set background=light
 let g:colors_name='tssol'
 hi! Normal                guifg=#000000 guibg=NONE    gui=italic
-hi! StatusLine            guifg=#ffffff guibg=#000000 gui=NONE
+hi! StatusLine            guifg=#000000 guibg=NONE    gui=NONE
 hi! WinSeparator                        guibg=NONE
 hi! Title                 guifg=NONE    guibg=NONE    gui=NONE
 hi! Comment               guifg=#808080 guibg=NONE    gui=italic
