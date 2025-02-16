@@ -1,0 +1,124 @@
+-- set background=light
+-- let g:colors_name='tssol'
+
+-- hi! 'Normal'               ,fg=#000000, bg=NONE    , italic=true
+-- hi! 'StatusLine'           ,fg=#000000, bg=NONE    , NONE
+-- hi! 'WinSeparator'         ,          ,    bg=NONE
+-- hi! 'Title'                ,fg=NONE   , bg=NONE    , NONE
+-- hi! 'Comment'              ,fg=#808080, bg=NONE    , italic=true
+-- hi! 'Constant'             ,fg=#000080, bg=NONE    , bold=true
+-- hi! 'String'               ,fg=#008080, bg=NONE    , bold=true,italic=true
+-- hi! 'Character'            ,fg=#660099, bg=NONE    , bold=true
+-- hi! 'Number'               ,fg=#0000ff, bg=NONE    , italic=true
+-- hi! 'Boolean'              ,fg=#000080, bg=NONE    , bold=true
+-- hi! 'Identifier'           ,fg=#000000, bg=NONE    , italic=true
+-- hi! 'Statement'            ,fg=#000080, bg=NONE    , bold=true
+-- hi! 'Conditional'          ,fg=#000080, bg=NONE    , bold=true
+-- hi! 'Operator'             ,fg=#000000, bg=NONE    , italic=true
+-- hi! 'Exception'            ,fg=#000080, bg=NONE    , bold=true
+-- hi! 'PreProc'              ,fg=#ff0000, bg=NONE    , italic=true
+-- hi! 'Include'              ,fg=NONE   , bg=NONE    , bold=true
+-- hi! 'Define'               ,fg=NONE   , bg=NONE    , bold=true
+-- hi! 'PreCondit'            ,fg=NONE   , bg=NONE    , bold=true
+-- hi! 'Type'                 ,fg=#839a00, bg=NONE    , bold=true
+-- hi! 'StorageClass'         ,fg=NONE   , bg=NONE    , bold=true
+-- hi! 'Structure'            ,fg=NONE   , bg=NONE    , bold=true
+-- hi! 'Typedef'              ,fg=NONE   , bg=NONE    , bold=true
+-- hi! 'Special'              ,fg=#660099, bg=NONE    , bold=true,italic=true
+-- hi! 'Underlined'           ,fg=#660099, bg=NONE    , NONE
+-- hi! 'Error'                ,fg=#ff0000, bg=#ffdbdb , NONE
+-- hi! 'TODO'                 ,fg=#dc143c, bg=#ffef00 , bold=true,italic=true
+-- hi! 'NonText'              ,fg=#aaaaaa, bg=NONE    , NONE
+-- hi! 'Visual'               ,fg=#000000, bg=#aaaaaa , NONE
+-- hi! 'ErrorMsg'             ,fg=#ff0000, bg=#ffff80 , NONE
+-- hi! 'IncSearch'            ,fg=#000000, bg=#ffd500 , NONE
+-- hi! 'Search'               ,fg=#000000, bg=#ffef00 , NONE
+-- hi! 'MoreMsg'              ,fg=#808080, bg=NONE    , NONE
+-- hi! 'ModeMsg'              ,fg=#808080, bg=NONE    , NONE
+-- hi! 'LineNr'               ,fg=#aaaaaa, bg=NONE    , NONE
+-- hi! 'CursorLine'           ,fg=NONE   , bg=#f7f7f7 , NONE
+-- hi! 'Folded'               ,fg=#808080, bg=#e4e4e4 , NONE
+-- hi! 'DiffAdd'              ,fg=NONE   , bg=#dfffdb , NONE
+-- hi! 'DiffChange'           ,fg=NONE   , bg=#e4e4ff , NONE
+-- hi! 'DiffDelete'           ,fg=NONE   , bg=#ffdbdb , NONE
+-- hi! 'DiffText'             ,fg=#000000, bg=#f7dbff , NONE
+-- hi! 'SpellBad'             ,fg=#ff0000, bg=#ffff80 , NONE
+-- hi! 'SpellCap'             ,fg=#660099, bg=#ffff80 , NONE
+-- hi! 'SpellRare'            ,fg=#dc143c, bg=#ffff80 , NONE
+-- hi! 'SpellLocal'           ,fg=#008080, bg=#ffff80 , NONE
+-- hi! 'Pmenu'                ,fg=#454545, bg=#aaaaaa , NONE
+-- hi! 'PmenuSel'             ,fg=#e4e4e4, bg=#000080 , NONE
+-- hi! 'PmenuSbar'            ,fg=#454545, bg=#aaaaaa , NONE
+-- hi! 'PmenuThumb'           ,fg=#454545, bg=#aaaaaa , NONE
+-- hi! 'MatchParen'           ,fg=#ffffff, bg=#ff4400 , NONE
+-- hi! 'DSMatch'              ,fg=#ffffff, bg=#dc143c , bold=true
+-- hi! 'ColorColumn'          ,fg=NONE   , bg=#ffdbdb , NONE
+-- hi! 'WildMenu'             ,fg=#e4e4e4, bg=#aaaaaa , NONE
+-- hi! 'SignColumn'           ,fg=NONE   , bg=#e4e4e4 , NONE
+-- hi! 'SpecialKey'           ,fg=#660099, bg=NONE    , bold=true
+-- hi! 'QuickFixLine'         ,fg=NONE   , bg=#e4e4e4 , NONE
+-- hi! 'Terminal'             ,fg=#000000, bg=#ffffff , NONE
+-- hi! 'healthError'          ,fg=#ff0000, bg=#454545 , bold=true
+-- hi! 'healthSuccess'        ,fg=#008080, bg=#454545 , NONE
+-- hi! 'healthWarning'        ,fg=#ff9d00, bg=#454545 , bold=true
+-- hi! 'Directory'            ,fg=#008080, bg=#454545 , NONE
+-- hi! 'EndOfBuffer'          ,fg=#aaaaaa, bg=NONE    , NONE
+-- hi! 'Question'             ,fg=#000000, bg=NONE    , NONE
+-- hi! 'WarningMsg'           ,fg=#ff9d00, bg=#454545 , bold=true
+-- hi! 'Delimeter'            ,fg=#660099, bg=NONE    , bold=true
+-- hi! 'Float'                ,fg=#660099, bg=NONE    , bold=true
+-- hi! 'Function'             ,fg=#000080, bg=NONE    , bold=true,italic=true
+-- hi! 'Keyword'              ,fg=#000080, bg=NONE    , bold=true,italic=true
+-- hi! 'Label'                ,fg=#000080, bg=NONE    , bold=true
+-- hi! 'Repeat'               ,fg=#000080, bg=NONE    , bold=true
+-- hi! 'Tag'                  ,fg=#dc143c, bg=#ffef00 , bold=true
+-- hi! 'Macro'                ,fg=#000080, bg=NONE    , NONE
+-- hi! 'debugPc'              ,fg=NONE   , bg=#ff0000 , NONE
+-- hi! 'debugBreakpoint'      ,fg=#ff0000, bg=NONE    , NONE
+-- hi! 'Sneak'                ,fg=#ffffff, bg=#0048ff , NONE
+-- hi! 'QuickScopePrimary'    ,fg=#0048ff, bg=NONE    , bold=true
+-- hi! 'QuickScopeSecondary'  ,fg=#bf00ff, bg=NONE    , bold=true
+-- hi! 'CopilotSuggestion'    ,fg=#800080, bg=NONE    , NONE
+-- hi! 'illuminatedWord'      ,fg=NONE   , bg=#e4e4ff , NONE
+-- hi! 'CocErrorSign'   ,fg=#ff0000,bg=NONE,italic=true
+-- hi! 'CocWarningSign' ,fg=#ff8400,bg=NONE,italic=true
+-- hi! 'CocInfoSign'    ,fg=#000080,bg=NONE,italic=true
+-- hi! 'CocHintSign'    ,fg=#000080,bg=NONE,italic=true
+-- hi! 'CocFadeOut'     ,fg=#000000,bg=NONE,italic=true
+-- hi! 'CocMarkdownLink',fg=#000000,bg=NONE
+-- hi! 'CocInlayHint'   ,fg=#9b79ab,bg=NONE,italic=true
+
+-- hi! link 'Cursor'                     'StatusLine'
+-- hi! link 'CursorLineNr'               'CursorLine'
+-- hi! link 'CursorColumn'               'CursorLine'
+-- hi! link 'FoldColumn'                 'Folded'
+-- hi! link 'CocSymbolDefault'           'LineNr'
+-- hi! link 'CocInlayHintType'           'LineNr'
+-- hi! link 'CocCodeLens'                'LineNr'
+-- hi! link 'CocMenuSel'                 'PmenuSel'
+-- hi! link 'CocSearch'                  'Search'
+-- hi! link 'CocSelectedText'            'SpellBad'
+-- hi! link 'CocErrorHighlight'          'CocErrorSign'
+-- hi! link 'CocErrorVirtualText'        'CocErrorSign'
+-- hi! link 'DiagnosticVirtualTextError' 'CocErrorSign'
+-- hi! link 'DiagnosticSignError'        'CocErrorSign'
+-- hi! link 'DiagnosticUnderlineError'   'CocErrorSign'
+-- hi! link 'CocWarningVirtualText'      'CocWarningSign'
+-- hi! link 'CocWarningHighlight'        'CocWarningSign'
+-- hi! link 'CocInfoHighlight'           'CocInfoSign'
+-- hi! link 'CocInfoVirtualText'         'CocInfoSign'
+-- hi! link 'DiagnosticSignInfo'         'CocInfoSign'
+-- hi! link 'DiagnosticUnderlineInfo'    'CocInfoSign'
+-- hi! link 'CocHintHighlight'           'CocHintSign'
+-- hi! link 'CocHintVirtualText'         'CocHintSign'
+-- hi! link 'DiagnosticSignHint'         'CocHintSign'
+-- hi! link 'SignifyLineAdd'             'DiffAdd'
+-- hi! link 'SignifyLineChange'          'DiffChange'
+-- hi! link 'SignifyLineDelete'          'DiffDelete'
+-- hi! link 'SignifyLineDeleteFirstLine' 'DiffText'
+-- hi! link 'DiagnosticVirtualTextWarn'  'CocWarningSign'
+-- hi! link 'DiagnosticSignWarn'         'CocWarningSign'
+-- hi! link 'DiagnosticUnderlineWarn'    'CocWarningSign'
+-- hi! link 'DiagnosticUnderlineHint'    'CocWarningSign'
+
+
