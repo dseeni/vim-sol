@@ -3,9 +3,13 @@ local v = vim
 local api = v.api
 local highlight = api.nvim_set_hl
 local NONE = 'NONE'
+local sgv = api.nvim_set_var
+local u = require 'utils'
+local sgo = u.sgo
+
 function M.setup()
-  v.o.background = 'light'
-  v.g.colors_name = 'tssol'
+  sgo('background', 'light')
+  sgv('colors_name', 'tssol')
   highlight(0 , 'Normal'              , {fg='#000000' , bg=NONE      , italic=true  })
   highlight(0 , 'StatusLine'          , {fg='#000000' , bg=NONE      , bold=false   , italic=false })
   highlight(0 , 'WinSeparator'        , {bg=NONE      , bold=false   , italic=false })
@@ -127,4 +131,35 @@ function M.setup()
   highlight(0 , 'DiagnosticUnderlineHint'   , {link = 'CocWarningSign' })
 end
 return M
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
