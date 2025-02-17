@@ -1,14 +1,14 @@
 local M = {}
+local et = {}
 local v = vim
 local api = v.api
 local highlight = api.nvim_set_hl
 local NONE = 'NONE'
 local sgv = api.nvim_set_var
-local u = require 'utils'
-local sgo = u.sgo
+local sgo = api.nvim_set_option_value
 
 function M.setup()
-  sgo('background', 'light')
+  sgo('background', 'light', et)
   sgv('colors_name', 'tssol')
   highlight(0 , 'Normal'              , {fg='#000000' , bg=NONE      , italic=true  })
   highlight(0 , 'StatusLine'          , {fg='#000000' , bg=NONE      , bold=false   , italic=false })
